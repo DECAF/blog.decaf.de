@@ -1,0 +1,39 @@
+# Configuration
+# https://jekyllrb.com/docs/configuration/
+
+# General
+repository: DECAF/blog.decaf.de
+timezone: Europe/Berlin
+#baseurl:
+
+# Optional plugins
+# https://help.github.com/articles/configuring-jekyll-plugins/#optional-plugins
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
+
+# SEO
+# https://github.com/jekyll/jekyll-seo-tag
+title: DECAF Blog
+description: "Web-driven software company based in Berlin and Langenberg/NRW, Germany: Design/UX, Laravel + React."
+keywords: decaf,berlin,langenberg,web,internet,agentur,company,frontend,backend,design,develop,ux,bem,react,gremlin,laravel,redaxo,magento,cms,html,css,js
+
+# Assets
+# https://jekyllrb.com/docs/assets/
+sass:
+  style: compressed
+
+# Feed
+# https://github.com/jekyll/jekyll-feed
+feed:
+  path: /rss/
+
+# Exclude directories and/or files from the conversion.
+# https://jekyllrb.com/docs/configuration/
+exclude:
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
+- SETUP.md

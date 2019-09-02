@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}" prefix="og: http://ogp.me/ns#">
+
+  {% include head.html %}
+
+  {%- assign slug = page.url | split: "/" | last -%}
+  <body class="{{ page.layout }} {{ page.layout }}-template {{ page.layout }}-template-{{ slug }} {{ page.layout }}-{{ slug }} {{ slug }} nav-closed">
+
+    {% include navigation.html %}
+    {% include content.html %}
+    {% include footer.html %}
+
+    <!-- scripts -->
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="{{ '/assets/js/prism.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/jquery.fitvids.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+
+  </body>
+
+</html>
