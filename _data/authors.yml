@@ -1,20 +1,23 @@
-- name: Dirk
+- id: ds
+  name: Dirk
   slug: dirk
   location: Berlin
   website: https://decaf.de
-  twitter: "@schuer"
+  twitter: schuer
   bio: "COF, F+E. Not sure what this is all about."
 
-- name: Andreas
+- id: aw
+  name: Andreas
   slug: andreas
   location: Berlin
   website: https://decaf.de
-  twitter: ""
+  twitter:
   bio: "JavaScript guy feeding Gremlins all over the place."
 
-- name: Stefan
+- id: su
+  name: Stefan
   slug: stefan
   location: Langenberg/NRW
   website: https://decaf.de
-  twitter: ""
+  twitter:
   bio: "In front of the backend. With Laravel."

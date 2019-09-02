@@ -3,4 +3,36 @@ layout: page
 permalink: /about
 ---
 
-# About
+{%- assign authors = site.data.authors -%}
+
+
+{{#get "users" limit="all" include="count.posts" order="count.posts desc" filter="slug:-decaf"}}
+<ul class="author-list">
+  {{#foreach users}}
+  <li class="author-list__item">
+
+    <section class="author-profile">
+      {{#if image}}
+      <figure class="author-image">
+        <a href="/author/{{slug}}" class="img"
+           style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
+      </figure>
+      {{/if}}
+      <h1 class="author-title"><a href="/author/{{slug}}">{{name}}</a></h1>
+      {{#if bio}}
+      <h2 class="author-bio">{{bio}}</h2>
+      {{/if}}
+      <div class="author-meta">
+        {{#if location}}<span
+        class="author-location icon-location">{{location}}</span>{{/if}}
+        {{#if website}}<span class="author-link icon-link"><a
+        href="{{website}}">{{website}}</a></span>{{/if}}
+        <span class="author-stats"><i
+          class="icon-stats"></i> {{plural count.posts empty='No posts' singular='% post' plural='% posts'}}</span>
+      </div>
+    </section>
+
+  </li>
+  {{/foreach}}
+</ul>
+{{/get}}
