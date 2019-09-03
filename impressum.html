@@ -1,6 +1,8 @@
 ---
 layout: page
-permalink: /impressum
+title: Impressum
+permalink: /impressum/
 ---
 
-# Impressum
+{% capture content %}{% include_relative _pages/impressum.md %}{% endcapture %}
+{{ content | markdownify }}

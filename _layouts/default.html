@@ -4,7 +4,7 @@
   {% include head.html %}
 
   {%- assign slug = page.url | split: "/" | last -%}
-  <body class="{{ page.layout }} {{ page.layout }}-template {{ page.layout }}-template-{{ slug }} {{ page.layout }}-{{ slug }} {{ slug }} nav-closed">
+  <body class="{{ layout.type }}-template {{ page.layout }} {{ page.layout }}-template {{ page.layout }}-template-{{ slug }} {{ page.layout }}-{{ slug }} {{ slug }} nav-closed">
 
     {% include navigation.html %}
     {% include content.html %}

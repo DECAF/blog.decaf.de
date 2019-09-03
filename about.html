@@ -1,38 +1,51 @@
 ---
 layout: page
-permalink: /about
+title: About
+permalink: /about/
 ---
 
-{%- assign authors = site.data.authors -%}
+{% capture content %}{% include_relative _pages/about.md %}{% endcapture %}
+{{ content | markdownify }}
 
+{%- assign postGroups = site.posts | group_by:"author" | sort:"items" -%}
+{%- if postGroups.size > 0 -%}
 
-{{#get "users" limit="all" include="count.posts" order="count.posts desc" filter="slug:-decaf"}}
-<ul class="author-list">
-  {{#foreach users}}
-  <li class="author-list__item">
+  <ul class="author-list">
 
-    <section class="author-profile">
-      {{#if image}}
-      <figure class="author-image">
-        <a href="/author/{{slug}}" class="img"
-           style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
-      </figure>
-      {{/if}}
-      <h1 class="author-title"><a href="/author/{{slug}}">{{name}}</a></h1>
-      {{#if bio}}
-      <h2 class="author-bio">{{bio}}</h2>
-      {{/if}}
-      <div class="author-meta">
-        {{#if location}}<span
-        class="author-location icon-location">{{location}}</span>{{/if}}
-        {{#if website}}<span class="author-link icon-link"><a
-        href="{{website}}">{{website}}</a></span>{{/if}}
-        <span class="author-stats"><i
-          class="icon-stats"></i> {{plural count.posts empty='No posts' singular='% post' plural='% posts'}}</span>
-      </div>
-    </section>
+  {%- for group in postGroups -%}
+    {%- assign author = site.data.authors | where: "id", group.name | first -%}
 
-  </li>
-  {{/foreach}}
-</ul>
-{{/get}}
+    <li class="author-list__item">
+
+      <section class="author-profile">
+
+        {%- if author.image -%}
+        <figure class="author-image">
+          <a href="/author/{{slug}}" class="img" style="background-image: url('{{ author.image }}')"><span class="hidden">{{ author.name }}'s Picture</span></a>
+        </figure>
+        {%- endif -%}
+
+        <h1 class="author-title"><a href="/author/{{slug}}">{{ author.name }}</a></h1>
+
+        {%- if author.bio -%}
+        <h2 class="author-bio">{{ author.bio }}</h2>
+        {%- endif -%}
+
+        <div class="author-meta">
+          {%- if author.location -%}
+          <span class="author-location icon-location">{{ author.location }}</span>
+          {%- endif -%}
+
+          {%- if author.website -%}
+          <span class="author-link icon-link"><a href="{{ author.website }}">{{ author.website }}</a></span>
+          {%- endif -%}
+
+          <span class="author-stats"><i class="icon-stats"></i> {{ group.size }} {% if group.size == 1 %}post{% else %}posts{% endif %}</span>
+        </div>
+
+      </section>
+
+    </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
