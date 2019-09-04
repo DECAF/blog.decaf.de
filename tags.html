@@ -4,4 +4,10 @@ title: Tags
 permalink: /tags/
 ---
 
+{% capture tags %}
+  {% for tag in site.tags %}
+    {{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}#{{ tag }}
+  {% endfor %}
+{% endcapture %}
 
+{{ tags | split:',' | sort | join:',' }}

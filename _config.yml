@@ -5,6 +5,7 @@
 repository: DECAF/blog.decaf.de
 timezone: Europe/Berlin
 permalink: /:year/:month/:day/:title/
+taglink: /tag/
 
 #baseurl:
 
