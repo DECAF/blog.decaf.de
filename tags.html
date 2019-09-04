@@ -4,10 +4,14 @@ title: Tags
 permalink: /tags/
 ---
 
-{% capture tags %}
+{% capture taglist %}
   {% for tag in site.tags %}
-    {{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}#{{ tag }}
+    <li data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}" class="tag-list__item">
+      <a href="{{ site.taglink }}{{ tag[0] | slugify: 'pretty' }}">{{ tag[0] }}</a> <span class="tag-list__count">{{ tag[1].size }}</span>
+    </li>
   {% endfor %}
 {% endcapture %}
 
-{{ tags | split:',' | sort | join:',' }}
+<ul class="tag-list">
+  {{ taglist | split:'</li>' | sort | join:'</li>' }}
+</ul>
