@@ -1,0 +1,13 @@
+{%- assign postGroups = site.posts | group_by:"author" | sort:"items" -%}
+{%- if postGroups.size > 0 -%}
+
+  <ul class="author-list">
+
+    {%- for group in postGroups -%}
+      <li class="author-list__item">
+        {% include author-profile.html author=group.name link="true" %}
+      </li>
+    {%- endfor -%}
+  </ul>
+
+{%- endif -%}
