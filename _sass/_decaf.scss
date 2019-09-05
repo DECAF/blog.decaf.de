@@ -477,6 +477,7 @@ body .fluid-width-video-wrapper {
 body .author-profile {
     padding-top: 15px;
     padding-bottom: 15px;
+    position: relative;
 }
 
 body .author-thumb {
@@ -583,7 +584,7 @@ body .site-footer a {
     body .post.tag-twitter {
         font-size: 1.4em;
     }
-    
+
     body .excerpt__text {
     }
 }
@@ -618,7 +619,7 @@ body .site-footer a {
 
     body .excerpt__text {
     }
-    
+
     body .page-number {
         display: inline-block;
     }
@@ -917,7 +918,7 @@ body .nav a.subscribe-button:hover {
 .featured-list__item + .featured-list__item {
     margin-top: 5rem;
     padding-top: 5rem;
-    border-top: #EBF2F6 1px solid;    
+    border-top: #EBF2F6 1px solid;
 }
 
 .featured-list .post {
@@ -983,4 +984,119 @@ body .nav a.subscribe-button:hover {
 .tag-list__count {
     font-size: 0.7em;
     color: #8E9BA3;
+}
+
+
+.post-list {
+}
+
+.post-list__section {
+  margin-bottom: 60px;
+}
+
+.post-list__title {
+  font-size: 2.0rem;
+  margin-bottom: 20px;
+}
+
+.post-list__list {
+  margin: 0 0 40px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.post-list__list-item {
+  display: block;
+  margin: 0;
+
+  & + & {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: #EBF2F6 1px solid;
+  }
+}
+
+.post-list__item {
+}
+
+.post-list__item-header {
+  margin: 0 0 10px 0;
+}
+
+.post-list__item-title {
+  font-size: 2.4rem;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.post-list__item-meta {
+  color: #8E9BA3;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+
+  a {
+    color: #8E9BA3;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: #8E9BA3;
+      text-decoration: underline;
+    }
+  }
+}
+
+.post-content .post-list__item-thumb {
+  margin: 0 8px 0 0 !important;
+  width: 24px;
+  height: 24px;
+  left: 0 !important;
+  transform: none !important;
+  outline: 0 !important;
+  position: relative;
+  top: -1px;
+  max-width: 100%;
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 100%;
+}
+
+.post-list__item-link {
+}
+
+.post-list__item-date {
+  margin-left: 8px;
+  padding-left: 12px;
+  border-left: #aebbc3 1px solid;
+}
+
+
+.author-list {
+}
+
+.author-list__item {
+  margin-bottom: 20px;
+
+  &:not(:last-child) {
+    .author-profile {
+      &::after {
+        display: none; // remove deco dot
+      }
+    }
+  }
+}
+
+.author-template {
+
+  .author-profile {
+    margin-bottom: 60px;
+  }
+
+  .post {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
 }
