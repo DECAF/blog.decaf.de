@@ -1,0 +1,25 @@
+---
+layout: default
+type: page
+---
+
+{% include header.html %}
+
+<main class="content" role="main">
+
+  <article class="post page">
+
+    <section class="post-content">
+
+      {% include author-profile.html author=page.author %}
+
+      {% include post-list.html author=page.author %}
+
+    </section>
+
+  </article>
+
+</main>
+
+
+

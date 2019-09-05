@@ -20,6 +20,14 @@ title: DECAF Blog
 description: "Web-driven software company based in Berlin and Langenberg/NRW, Germany: Design/UX, Laravel + React."
 keywords: wait, what?
 
+# Collections
+# https://jekyllrb.com/docs/collections/
+collections:
+  authors:
+    output: true
+    permalink: /author/:name
+    layout: "page"
+
 # Assets
 # https://jekyllrb.com/docs/assets/
 sass:
