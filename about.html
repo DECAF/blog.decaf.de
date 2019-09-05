@@ -7,45 +7,4 @@ permalink: /about/
 {% capture content %}{% include_relative _pages/about.md %}{% endcapture %}
 {{ content | markdownify }}
 
-{%- assign postGroups = site.posts | group_by:"author" | sort:"items" -%}
-{%- if postGroups.size > 0 -%}
-
-  <ul class="author-list">
-
-  {%- for group in postGroups -%}
-    {%- assign author = site.data.authors | where: "id", group.name | first -%}
-
-    <li class="author-list__item">
-
-      <section class="author-profile">
-
-        {%- if author.image -%}
-        <figure class="author-image">
-          <a href="/author/{{slug}}" class="img" style="background-image: url('{{ author.image }}')"><span class="hidden">{{ author.name }}'s Picture</span></a>
-        </figure>
-        {%- endif -%}
-
-        <h1 class="author-title"><a href="/author/{{slug}}">{{ author.name }}</a></h1>
-
-        {%- if author.bio -%}
-        <h2 class="author-bio">{{ author.bio }}</h2>
-        {%- endif -%}
-
-        <div class="author-meta">
-          {%- if author.location -%}
-          <span class="author-location icon-location">{{ author.location }}</span>
-          {%- endif -%}
-
-          {%- if author.website -%}
-          <span class="author-link icon-link"><a href="{{ author.website }}">{{ author.website }}</a></span>
-          {%- endif -%}
-
-          <span class="author-stats"><i class="icon-stats"></i> {{ group.size }} {% if group.size == 1 %}post{% else %}posts{% endif %}</span>
-        </div>
-
-      </section>
-
-    </li>
-    {%- endfor -%}
-  </ul>
-{%- endif -%}
+{% include author-list.html %}

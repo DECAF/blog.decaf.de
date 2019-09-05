@@ -4,36 +4,4 @@ title: Archives
 permalink: /archives/
 ---
 
-<ul class="archive-list">
-
-  {% for post in site.posts %}
-  {% assign author = site.data.authors | where: "id", post.author | first %}
-
-  <li class="archive-list__item">
-
-    <article class="post">
-      <header class="post-header">
-        <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      </header>
-      <footer class="post-meta">
-        {% if author.image %}
-        <a href="#"><img class="author-thumb" src="{{ author.image }}" alt="{{ author.name }}" nopin="nopin" /></a>
-        {% endif %}
-
-        <a href="#">{{ author.name }}</a>
-
-        {% if post.tags %}
-        on {{ post.tags | join: ', ' }}
-        {% endif %}
-
-        <time class="post-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%e. %B %Y' }}</time>
-      </footer>
-    </article>
-
-  </li>
-
-  {% endfor %}
-
-</ul>
-
-<p>{{site.posts | size}} Posts</p>
+{% include post-list.html %}
