@@ -5,8 +5,6 @@
 repository: DECAF/blog.decaf.de
 timezone: Europe/Berlin
 permalink: /:year/:month/:day/:title/
-taglink: /tag/
-
 #baseurl:
 
 # Optional plugins
@@ -20,7 +18,7 @@ plugins:
 # https://github.com/jekyll/jekyll-seo-tag
 title: DECAF Blog
 description: "Web-driven software company based in Berlin and Langenberg/NRW, Germany: Design/UX, Laravel + React."
-keywords: decaf,berlin,langenberg,web,internet,agentur,company,frontend,backend,design,develop,ux,bem,react,gremlin,laravel,redaxo,magento,cms,html,css,js
+keywords: wait, what?
 
 # Assets
 # https://jekyllrb.com/docs/assets/
