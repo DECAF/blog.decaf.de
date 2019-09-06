@@ -30,6 +30,34 @@
         </footer>
       </article>
 
+    {% elsif post.more %}
+
+      <article class="post">
+        <header class="post-header">
+          <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        </header>
+        <section class="post-excerpt">
+          {% if post.image or post.description %}
+            {% if post.image %}
+            <a class="excerpt__image-link" href="{{ post.url }}"><img class="excerpt__image {{ post.imageClass }}" src="{{ post.image }}" alt=""></a>
+            {% endif %}
+            {% if post.description %}
+            <p class="excerpt__text">{{ post.description }}</p>
+            {% endif %}
+          {% else %}
+            {{ post.excerpt }}
+          {% endif %}
+          <a class="read-more" href="{{ post.url }}">Read full post &raquo;</a>
+        </section>
+        <footer class="post-meta">
+          {% if author.image %}
+          <a href="/author/{{ author.name | slugify }}/"><img class="author-thumb" src="{{ author.image }}" alt="{{ author.name }}" /></a>
+          {% endif %}
+          <a href="/author/{{ author.name | slugify }}/">{{ author.name }}</a>
+          <time class="post-date" datetime="{{ post.date | date: '%Y-%m-%d' }}"><a href="{{ post.url }}">{{ post.date | date: '%e. %B %Y' }}</a></time>
+        </footer>
+      </article>
+
     {% elsif slugNumber > 999999 %}
 
       <article class="post tag-twitter">
