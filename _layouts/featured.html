@@ -18,4 +18,7 @@ layout: default
 
   </article>
 
+  {%- assign posts = site.posts | where: "featured", "true" -%}
+  {% include post-loop.html posts=posts featured="true" %}
+
 </main>
