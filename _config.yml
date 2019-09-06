@@ -5,7 +5,7 @@
 repository: DECAF/blog.decaf.de
 timezone: Europe/Berlin
 permalink: /:year/:month/:day/:title/
-#baseurl:
+baseurl: /blog.decaf.de
 paginate: 10
 paginate_path: "/page/:num/"
 
