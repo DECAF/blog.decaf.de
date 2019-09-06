@@ -5,7 +5,7 @@ description:
 author: ds
 ---
 
-<img style="outline: none;" src="/content/images/2015/02/selfhtml-10.gif" alt="10 Jahre SELFHTML-Forum">
+<img class="seamless" src="/content/images/2015/02/selfhtml-10.gif" alt="10 Jahre SELFHTML-Forum">
 
 Hin und wieder mal werde ich gefragt, was ich eigentlich im [**SELFHTML-Forum**](http://forum.de.selfhtml.org) mache. Oft auch: Was ich eigentlich *noch immer* dort mache *(Ergänze: , wo es doch so viele andere Dinge zu tun gibt)*.
 

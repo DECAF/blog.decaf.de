@@ -2,7 +2,8 @@
 layout: post
 title: How to build a simple map for your community
 featured: true
-description:
+description: How to create a simple but beautiful world map powered by GitHub Pages and Leaflet that allows for your users to add and manage their entries themselves.
+image: /content/images/2017/11/redaxo-community.png
 author: ds
 ---
 

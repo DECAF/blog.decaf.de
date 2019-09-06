@@ -3,7 +3,6 @@ layout: post
 title: Hello Wood.
 description:
 author: ds
-featured: true
 ---
 
 ![Bild vom Büro](/content/images/2015/02/A4MGebKCYAEGHVe.jpg)

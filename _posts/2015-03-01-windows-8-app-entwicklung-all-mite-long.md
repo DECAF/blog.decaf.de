@@ -2,7 +2,8 @@
 layout: post
 title: 'Windows 8 App-Entwicklung: All mite long.'
 featured: true
-description:
+description: Wie wir 2013 versucht haben, Windows-8-Apps auf Basis von JavaScript zu entwickeln. Und am Ende stand ein lahmes Pferd.
+image: /content/images/2015/02/allmite_01.png
 author: ds
 ---
 

@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "REDAXO mit Docker \U0001F433"
+title: "REDAXO mit Docker 🐳"
 featured: true
-description:
+description: Einfaches 🐳 Docker-Setup für REDAXO-Entwicklung. Mit Demo-Website und Anleitung für Einsteiger_innen!
+image: /content/images/2017/07/redaxo-demo-base.png
+imageClass: seamless 
 author: ds
 ---
 
@@ -10,7 +12,7 @@ Falls ihr schon immer [REDAXO](https://redaxo.org) testen wolltet, bisher aber k
 
 Das Paket ist sehr ausführlich dokumentiert und soll vor allem auch eine __Hilfe für Einsteiger\_innen__ 🚀 sein, die noch keine Docker-Erfahrung mitbringen. Mit ganz wenig Aufwand habt ihr am Ende eine schicke Entwicklungsumgebung mit einem lauffähigen REDAXO CMS, das eine umfangreiche Website-Demo implementiert hat:
 
-<img style="outline: 0;" src="/content/images/2017/07/redaxo-demo-base.png" alt="Screenshot der REDAXO-Basisdemo">
+<img class="seamless" src="/content/images/2017/07/redaxo-demo-base.png" alt="Screenshot der REDAXO-Basisdemo">
 
 Das Paket eignet sich also für Leute, die mit __Docker__ rumspielen wollen, und für Leute, die mit __REDAXO__ rumspielen wollen. Wer beides will, bekommt den Jackpot! 🎉
 

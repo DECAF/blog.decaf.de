@@ -1,14 +1,16 @@
 ---
 layout: post
 title: 'Introducing Gremlin.js: web components for websites, not apps.'
-description:
+description: How to use Gremlin.js with HTML Custom Elements and BEM CSS to build modular server-side driven websites, not web apps.
+image: /content/images/2015/12/gremlinjs.png
+imageClass: seamless
 author: aw
 featured: true
 ---
 
 __Summary: How to use [Gremlin.js](http://grml.in) with HTML [Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements) and [BEM](https://en.bem.info) CSS to build modular server-side driven websites, not web apps.__
 
-<img style="max-width: 150px; outline: none;" src="/content/images/2015/12/gremlinjs.png" alt="Fluffy thing in a wooden box">
+<img class="seamless" style="max-width: 150px;" src="/content/images/2015/12/gremlinjs.png" alt="Fluffy thing in a wooden box">
 -----
 
 [We](http://decaf.de) build websites. The ones where you click a link and the page gets redirected. Where the bigger part of HTML comes up generated __server-side__, not client-side. While we like to build web apps, most of the time we have to deal with some CMS or shopping system that does not allow us to develop anything app-like in a reasonable amount of time.
@@ -85,7 +87,7 @@ __That’s why I built Gremlin.js.__
 
 # Introducing [Gremlin.js](http://grml.in)
 
-<img style="max-width: 400px; outline: none;" src="/content/images/2015/12/gremlinjs.png" alt="Fluffy thing in a wooden box">
+<img class="seamless" style="max-width: 400px;" src="/content/images/2015/12/gremlinjs.png" alt="Fluffy thing in a wooden box">
 
 Gremlin.js is a library for 
 

@@ -3,7 +3,6 @@ layout: post
 title: It’s all about coffee benefit
 description:
 author: ds
-featured: true
 ---
 
 ![Coffee cup](/content/images/2015/02/coffee-cup.jpg)

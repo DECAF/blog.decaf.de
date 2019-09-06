@@ -5,7 +5,7 @@ description:
 author: ds
 ---
 
-<img style="width: 15%; outline: none;" src="/content/images/2015/06/bem2.png" alt="BEM">
+<img class="seamless" style="width: 15%;" src="/content/images/2015/06/bem2.png" alt="BEM">
 
 Starting to use [BEM](https://en.bem.info/method/definitions/) for CSS in 2013/14 gave us a distinct boost to quality and performance.
 

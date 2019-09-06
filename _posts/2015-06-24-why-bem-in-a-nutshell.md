@@ -2,13 +2,15 @@
 layout: post
 title: "‘Why BEM?’ in a nutshell"
 featured: true
-description:
+description: Specificity and inheritance do not play well in modular environments. With BEM you achieve a sort of scoped CSS and reduce specificity to a minimum level.
+image: /content/images/2015/06/bem2.png
+imageClass: seamless
 author: ds
 ---
 
 _(Update ~~2018~~ 2019: this stuff is still relevant if you’re not writing CSS-in-JS!)_
 
-<img style="width: 15%; outline: none;" src="/content/images/2015/06/bem2.png" alt="BEM">
+<img class="seamless" style="width: 15%;" src="/content/images/2015/06/bem2.png" alt="BEM">
 
 The two base concepts of CSS? Inheritance and specificity.
 
@@ -26,7 +28,7 @@ Of course we are willing to write modular CSS, too. But its base features inheri
 
 Web Components will hopefully provide some CSS scope (see [Shadow DOM](http://webcomponents.org/articles/introduction-to-shadow-dom/)). But while waiting for Web Components to get finished and implemented in common browsers, we’d better use some proper _workarounds_ like:
 
-<img style="width: 30%; outline: none;" src="/content/images/2015/06/bem.png" alt="BEM">
+<img class="seamless" style="width: 30%;" src="/content/images/2015/06/bem.png" alt="BEM">
 
 ### BEM.
 

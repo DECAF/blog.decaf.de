@@ -2,7 +2,8 @@
 layout: post
 title: Grunt-Workflow für REDAXO CMS
 featured: true
-description:
+description: Beispiel einer REDAXO-Installation innerhalb eines Grunt-Workflows.
+image: /content/images/2015/02/grunt-redaxo.png
 author: ds
 ---
 
