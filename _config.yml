@@ -26,7 +26,7 @@ keywords: wait, what?
 collections:
   authors:
     output: true
-    permalink: /author/:name
+    permalink: /author/:name/
     layout: "page"
 
 # Assets
