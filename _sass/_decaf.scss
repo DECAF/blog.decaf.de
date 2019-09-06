@@ -404,7 +404,7 @@ body .post.tag-twitter .post-content p {
     max-width: 100%;
     margin: 1.2em auto;
     padding: 0;
-    outline: 1px solid rgba(255, 255, 255, 0.5) !important;
+    //outline: 1px solid rgba(255, 255, 255, 0.5) !important;
     /* Centers an image by (1) pushing its left edge to the
    center of its container and (2) shifting the entire image
    in the opposite direction by half its own width.
@@ -444,11 +444,17 @@ body .post.tag-twitter .post-content p {
 body .excerpt__text {
 }
 
-body .post-content img {
+body .post-content img,
+body .post-excerpt img {
     margin-top: 0.6em;
     margin-bottom: 0.6em;
     padding: 0;
     outline: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+body .post-content .seamless,
+body .post-excerpt .seamless {
+    outline: none !important;
 }
 
 @media only screen and (min-width: 769px) {
@@ -464,6 +470,7 @@ body .post-content iframe {
     /* center iframes in content column. needs to be important in order
     to override generated iframes like twitter ones et all */
     margin: 0.6em auto 1.75em auto !important;
+    outline: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 body .fluid-width-video-wrapper iframe {
@@ -963,30 +970,6 @@ body .nav a.subscribe-button:hover {
 
 
 
-.tag-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-.tag-list__item {
-    display: inline-block;
-    margin: 0 10px;
-    font-size: 2.5rem;
-}
-.tag-list__item a {
-    display: inline-block;
-    white-space: nowrap;
-    text-decoration: none;
-}
-
-.tag-list__count {
-    font-size: 0.7em;
-    color: #8E9BA3;
-}
-
-
 .post-list {
 }
 
@@ -1074,6 +1057,8 @@ body .nav a.subscribe-button:hover {
 }
 
 
+
+
 .author-list {
 }
 
@@ -1089,6 +1074,8 @@ body .nav a.subscribe-button:hover {
   }
 }
 
+
+
 .author-template {
 
   .author-profile {
@@ -1100,3 +1087,44 @@ body .nav a.subscribe-button:hover {
     border-bottom: none;
   }
 }
+
+
+
+.extra-pagination {
+  border-bottom: none;
+  margin-bottom: 80px;
+
+  &::after {
+    display: none; // remove deco dot
+  }
+}
+
+
+
+
+.page-template,
+.featured-template {
+
+  .post.page {
+    margin-top: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+
+    &::after {
+      display: none; // remove deco dot
+    }
+
+    .post-header {
+      margin-bottom: 3.4rem;
+
+      @media only screen and (max-width: 500px) {
+        margin-bottom: 2rem;
+      }
+    }
+
+    .post-title {
+      margin-bottom: 0;
+    }
+  }
+}
+
