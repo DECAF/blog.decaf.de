@@ -1,4 +1,4 @@
-{%- assign postGroups = site.posts | group_by:"author" | sort:"items" -%}
+{%- assign postGroups = site.posts | group_by:"author" | sort:"items" | reverse -%}
 {%- if postGroups.size > 0 -%}
 
   <ul class="author-list">
