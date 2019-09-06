@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Anfrage aus Österreich
-description:
+description: Der Vorstand möchte DECAF, kann in unserem Webshop aber den Warenkorb nicht finden. Du wirst verblüfft sein, was aus dem Projekt am Ende geworden ist!
 author: ds
+more: true
 ---
 
 Schöne Geschichte: Neulich rief eine Frau an 🙋, die sehr höflich fragte, ob es richtig sei, dass wir keine Niederlassung in Österreich 🇦🇹 hätten.

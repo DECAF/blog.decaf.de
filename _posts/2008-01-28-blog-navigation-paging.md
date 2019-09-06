@@ -1,10 +1,11 @@
 ---
 layout: post
 title: 'Blog-Navigation: Paging'
-description:
+description: "Teil 1 über sinnvolle Pagination in Weblogs."
+image: /content/images/2015/02/navigation_01.png
 author: ds
+more: true
 ---
-
 
 *Dies ist Teil 1 des Artikels über Blog-Navigation. Siehe auch Teil 2: [Paging (2)](http://blog.decaf.de/2008/01/31/blog-navigation-paging-2).*
 

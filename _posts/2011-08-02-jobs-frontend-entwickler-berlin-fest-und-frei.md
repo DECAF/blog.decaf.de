@@ -3,6 +3,7 @@ layout: post
 title: 'Jobs: Frontend-Entwickler, Berlin, fest und frei.'
 description:
 author: ds
+more: true
 ---
 
 

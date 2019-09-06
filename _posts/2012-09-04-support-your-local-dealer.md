@@ -1,8 +1,10 @@
 ---
 layout: post
 title: 'Kaffee am Ende der Welt: Support your local dealer.'
-description:
+description: "Kaffee ist uns wichtig. Websites können wir bauen. Neulich kam beides zusammen, und es war mir eine Freude, jemanden einfach so unterstützen zu können."
+image: /content/images/2015/02/am-ende-der-welt.jpg
 author: ds
+more: true
 ---
 
 ![Cafe am Ende der Welt](/content/images/2015/02/am-ende-der-welt.jpg)

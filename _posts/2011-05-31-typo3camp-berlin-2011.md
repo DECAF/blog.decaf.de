@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Hallo TYPO3camp Berlin!
-description:
+description: "Vom 24. Juni bis 26. Juni 2011 findet in Berlin das TYPO3camp statt. Sven und ich werden hingegen, und wir freuen uns drauf."
+image: /content/images/2015/02/t3c-c-p_logo_horizontal.png
 author: ds
+more: true
 ---
 
 

@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Entries on page x
-description:
+description: "The WordPress plugin Entries on page x generates a link back to the archive page the current entry is on and makes it easier for users to retrieve the chronology of a blog."
+image: /content/images/2015/02/wordpress.png
 author: ds
+more: true
 ---
-
 
 ![WordPress](/content/images/2015/02/wordpress.png)
 

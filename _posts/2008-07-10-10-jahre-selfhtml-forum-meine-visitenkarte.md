@@ -1,8 +1,11 @@
 ---
 layout: post
 title: '10 Jahre SELFHTML-Forum: Meine Visitenkarte'
-description:
+description: "Zum 10-jährigen Jubiläum des SELFHTML-Forums: SELF-Visitenkarte von Dirk Schürjohann."
+image: /content/images/2015/02/selfhtml-10.gif
+imageClass: seamless
 author: ds
+more: true
 ---
 
 <img class="seamless" src="/content/images/2015/02/selfhtml-10.gif" alt="10 Jahre SELFHTML-Forum">

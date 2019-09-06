@@ -1,8 +1,10 @@
 ---
 layout: post
 title: iPhone-like password fields using jQuery
-description:
+description: "We built a small JavaScript helper to implement delayed password masking on websites."
+image: /content/images/2015/02/iphone-password.jpg
 author: su
+more: true
 ---
 
 **or: Delayed password masking with JavaScript.**

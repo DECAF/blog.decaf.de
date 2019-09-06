@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Human-Coffee Interaction, HCI (1)
-description:
+description: "Unsere Kaffeemaschine stellt eine latente Gefahr für alle Nutzer_innen dar: Abrutschen → BI → TBI."
+image: /content/images/2015/02/kaffee_01.jpg
 author: ds
+more: true
 ---
 
 

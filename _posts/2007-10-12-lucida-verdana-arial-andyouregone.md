@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 'Lucida: And you''re gone.'
-description:
+description: "Ich habe das Interesse an Lucida verloren. Und weil Verdana viel zu breit und unbeholfen steht, bleibt eigentlich nur noch die gute alte Arial übrig."
 author: ds
+more: true
 ---
-
 
 Damals war **Arial**. Dann kam **Verdana**. Und als es immer mehr Computer mit Obst gab, wurde die damit einhergehende **Lucida Grande** (bzw deren Windows-Pendant Lucida Sans Unicode) recht schnell zur bevorzugten Schriftart vieler mac-affinen Webautoren.
 

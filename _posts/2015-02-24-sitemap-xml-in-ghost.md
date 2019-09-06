@@ -1,8 +1,10 @@
 ---
 layout: post
 title: 'Ghost: Wie erstellt man eine sitemap.xml?'
-description:
+description: "Wie man eine Sitemap für Suchmaschinen erstellt? Spoiler: Man lässt es Ghost machen, denn das kann es ganz alleine."
+image: /content/images/2015/02/sitemap-xml_01.png
 author: ds
+more: true
 ---
 
 > There's an app for that.

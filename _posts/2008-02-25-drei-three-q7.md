@@ -5,7 +5,6 @@ description:
 author: ds
 ---
 
-
 > Die drei wichtigsten Elemente einer Website?  
 > __Menschen__ und __Inhalte__.
 

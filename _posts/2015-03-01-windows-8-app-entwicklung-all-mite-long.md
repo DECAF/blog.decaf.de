@@ -5,6 +5,7 @@ featured: true
 description: Wie wir 2013 versucht haben, Windows-8-Apps auf Basis von JavaScript zu entwickeln. Und am Ende stand ein lahmes Pferd.
 image: /content/images/2015/02/allmite_01.png
 author: ds
+more: true
 ---
 
 Ein Rückblick. __2013__ haben wir einige Zeit mit App-Entwicklung für Windows 8 verbracht. Denn wir waren recht überzeugt davon, dass Microsoft ein ganz nettes System erschaffen hatte. Zumindest das Konzept und die Basis eines netten Systems, denn was die Ausführung angeht, gilt immer die alte Regel: Finger weg vom ersten Release eines Produkts!

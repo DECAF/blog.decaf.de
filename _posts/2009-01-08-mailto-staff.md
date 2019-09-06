@@ -1,10 +1,11 @@
 ---
 layout: post
 title: mailto:staff
-description:
+description: "Multi-author/team blogs: this plugin generates mailto links on the dashboard referring to all user groups of the blog. Quite handy way of internal staff communication."
+image: /content/images/2015/02/screenshot-1.png
 author: ds
+more: true
 ---
-
 
 Multi-author/team blogs: The **WordPress plugin [mailto:staff](http://wordpress.org/extend/plugins/mailtostaff/)** generates mailto links on the dashboard referring to all user groups of the blog. Quite handy way of internal staff communication if you don’t want to set up a mailing list or a server-side messaging system.
 

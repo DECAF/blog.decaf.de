@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Überlegungen zum '2009 Open Source CMS Report'
-description:
+description: "Joomla, WordPress und Drupal als Anführer, MODx im Mittelfeld, TYPO3 nicht in Amerika, Textpattern »gefährdet«. Der Open Source CMS Report zum Download."
+image: /content/images/2015/02/os_cms_report-2009.png
 author: ds
+more: true
 ---
 
 ![os_cms_report-2009](/content/images/2015/02/os_cms_report-2009.png)

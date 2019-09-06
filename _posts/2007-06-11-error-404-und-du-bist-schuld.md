@@ -1,15 +1,14 @@
 ---
 layout: post
 title: Error 404, und du bist schuld!
-description:
+description: "Eine handvoll Gründe, warum die Meldung, die vom Server mit einem 404er ausgegeben wird, in der Regel weder höflich noch hilfreich ist."
 author: ds
+more: true
 ---
 
 Angeregt durch eine [Diskussion](https://www.xing.com/app/forum?op=showarticles;id=4522062;articleid=4522062#4522062) in der XING-Gruppe »[Webdesign und Usability](https://www.xing.com/net/webdesignundusability)« möchte ich hier eine handvoll Gründe einwerfen, warum die Meldung, die vom Server mit einem 404er ausgegeben wird, in der Regel weder höflich noch hilfreich ist.
 
 ### Ohne individuelle 404-Fehlerseite lässt man den Benutzer dumm darstehen:
-
-…  
 
 `1.` **…weil man ihm nicht sagt, wo er sich befindet.**
 

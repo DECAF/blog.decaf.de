@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 'Gebrauchstaugliche Mehrsprachigkeit: it’s all about Sprachfolge'
-description:
+description: "Mehrsprachigkeit ist gar nicht einfach. Aber wenn wir schonmal dabei sind, sollten wir drei Maßnahmen beachten."
 author: ds
+more: true
 ---
-
 
 Mehrsprachige Websites zu entwickeln scheint im ersten Moment recht einfach: man spiegelt die vorhandene Struktur und den Content, done. Wer’s genau nimmt, macht sich noch Gedanken über URL-Schemata und die Sprachauswahl (automatisch und manuell), interne Verlinkung oder eine mögliche Mehrfachverwertung von Inhalten. Und diejenigen, die es sehr genau nehmen, fangen nicht eher mit der Umsetzung an, bevor nicht das Wort »[**Content Negotiation**](http://de.wikipedia.org/wiki/Content_Negotiation)« gefallen ist.
 
@@ -15,8 +15,6 @@ It’s all about Sprachfolge, und das macht’s im Backend ein Stück weit kompl
 Nein, Mehrsprachigkeit ist nicht einfach. Aber wenn wir schonmal dabei sind, sollten wir drei Maßnahmen beachten:
 
 ### 3x Mehrsprachigkeit mit Gebrauchstauglichkeit, bitte! Zum Mitnehmen.
-
-…
 
 `1.` **Eine sinnvolle Sprachfolge**
 

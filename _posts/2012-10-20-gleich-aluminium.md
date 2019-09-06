@@ -1,8 +1,10 @@
 ---
 layout: post
 title: GLEICH Aluminium
-description:
+description: "Im Portfolio: Relaunch von gleich.de auf Basis von REDAXO CMS mit allem Pipapo und Zipp und Zapp."
+image: /content/images/2015/02/gleich_01.jpg
 author: ds
+more: true
 ---
 
 ![Screenshot 1](/content/images/2015/02/gleich_01.jpg)

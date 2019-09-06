@@ -1,8 +1,10 @@
 ---
 layout: post
 title: REDAXO-Tag 2016 in Essen
-description:
+description: Wir waren wieder anne Ruhr. Im Unperfekthaus, wie schon vor 3 Jahren. Und es war wieder großartig.
+image: /content/images/2016/06/redaxo-anne-ruhr.jpg
 author: ds
+more: true
 ---
 
 ![REDAXO anne Ruhr](/content/images/2016/06/redaxo-anne-ruhr.jpg)

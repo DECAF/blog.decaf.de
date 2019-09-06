@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Ghost 0.6, Einsnull und WordPress
-description:
+description: "Was kann Ghost zum aktuellen Zeitpunkt? Und im Vergleich zu WordPress: was kann es nicht? Ein kurzer Statusbericht."
+image: /content/images/2015/04/ghost-0-6.png
 author: ds
+more: true
 ---
 
 Gestern wurde [Ghost 0.6.0 veröffentlicht](http://dev.ghost.org/ghost-0-6-0/). Ein Minor-Update (von 0.5.10) mit nur wenigen neuen Features:

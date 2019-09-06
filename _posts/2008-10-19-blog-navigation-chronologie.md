@@ -1,10 +1,11 @@
 ---
 layout: post
 title: 'Blog-Navigation: Chronologie.'
-description:
+description: "Du kannst in einem Blog nicht wie in einem Buch lesen, wenn der Weg zurück in die Chronologie fehlt. Unser WordPress-Plugin möchte das Problem beheben."
+image: /content/images/2015/02/entries-on-page-x-link1-250x217.png
 author: ds
+more: true
 ---
-
 
 Nochmal fünf Worte zum Thema **Blog-Navigation**: Ich hatte damals mal angesprochen _(Anm.: Artikel nicht mehr verfügbar)_, dass mir als Blogleser missfällt, dass ich nicht immer problemlos zurück in die Chronologie eines Blogs einsteigen kann.  
  Am auffälligsten macht sich das meist bemerkbar, wenn man von außen – etwa aus einer Suchmaschine heraus – auf einen einzelnen Blogartikel stößt und nachverfolgen möchte, welche Artikel im ähnlichen Zeitraum veröffentlicht wurden. Man muss sich dann den Titel und/oder das Veröffentlichungsdatum merken und versuchen, das Ding im Archiv ausfindig zu machen. Und dort kann man sich je nach Blogkonfiguration zwar vor und zurück bewegen, jedoch hat man selten (as in: *nie*) die Möglichkeit, an dieser Stelle zeitlich wieder in die Seitenansicht des Blogs einzusteigen. Mit Seitenansicht meine ich diejenige Ansicht, die man vorfände, wenn man von der Startseite aus x Seiten bis zum Artikel zurückgeblättert hätte.

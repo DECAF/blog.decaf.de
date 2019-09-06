@@ -1,8 +1,10 @@
 ---
 layout: post
 title: REDAXO-Tag am 12.11.2011 in Frankfurt
-description:
+description: "Bericht vom REDAXO-Tag in Frankfurt: Über TOXID, XForms Manager + Community und dem anstehenden REDAXO 5."
+image: /content/images/2015/02/redaxotag.jpg
 author: ds
+more: true
 ---
 
 Um [REDAXO](http://redaxo.org) ist es in den letzten Monaten etwas stiller geworden als üblich, was daran liegen kann, dass das Team in der Entwicklung der neuen **Version 5** steckt. Es gab Pläne, die 5er schon zu Beginn dieses Jahres zu veröffentlichen, als es dann aber zu Verzögerungen kam, hat man beschlossen, den gewohnten Weg zu gehen: *Es kommt dann, wenn es fertig ist*. Inzwischen wird es immer fertiger, so dass angekündigt wurden, den aktuellen Stand auf dem REDAXO-Tag in Frankfurt vorzustellen.

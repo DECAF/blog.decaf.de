@@ -3,6 +3,7 @@ layout: post
 title: Frontend-Entwickler, v-f-B-now!
 description:
 author: ds
+more: true
 ---
 
 

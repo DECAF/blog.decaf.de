@@ -1,8 +1,10 @@
 ---
 layout: post
 title: 'REDAXO-Addon: Upload Precompressor'
-description:
+description: "Das Addon verkleinert übergroße Bilder nach Upload in den Medienpool. Bereits vorhandene Bilder können nachträglich verkleinert werden."
+image: /content/images/2015/02/upload_precompressor_01.png
 author: ds
+more: true
 ---
 
 

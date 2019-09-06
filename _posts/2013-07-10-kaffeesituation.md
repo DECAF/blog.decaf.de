@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Kaffeesituation
-description:
+description: "Kurz aufgelistet, welche Bohnen wir aktuell in der Maschine haben. Zwischen Supermarkt und Edelkaffee."
+image: /content/images/2015/02/coffee_01.jpg
 author: ds
+more: true
 ---
 
 Um es kurz zu machen: Normalerweise haben wir ja den hier:

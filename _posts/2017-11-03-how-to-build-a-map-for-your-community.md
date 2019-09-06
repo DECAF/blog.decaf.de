@@ -5,6 +5,7 @@ featured: true
 description: How to create a simple but beautiful world map powered by GitHub Pages and Leaflet that allows for your users to add and manage their entries themselves.
 image: /content/images/2017/11/redaxo-community.png
 author: ds
+more: true
 ---
 
 __The article describes how to create a simple but beautiful world map which is powered by [GitHub Pages](https://pages.github.com) and [Leaflet](http://leafletjs.com) that allows for your users to add and manage their entries themselves.__

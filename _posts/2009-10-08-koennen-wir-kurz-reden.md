@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Können wir kurz reden?
-description:
+description: "Ein Text über Twitter. Erschienen im Webstandards-Magazin, Ausgabe 02/2009."
+image: /content/images/2015/02/webstandardsmag_02-09.gif
 author: ds
+more: true
 ---
 
 Es geht um [**Twitter**](http://twitter.com), und ich habe hier ein paar Probleme. — Twitter ist eine dieser Webanwendungen, deren Technik schneller verständlich ist als das Konzept. Technisch gesehen schreibt man nämlich einfach »was rein«, konzeptionell hat man anfangs jedoch nur eine vage Vorstellung davon, wer es liest. Und warum.

@@ -9,4 +9,4 @@ Ohai, __watched__! [Andreas](http://blog.decaf.de/author/andreas/) published som
 
 ![npm screenshot](/content/images/2015/03/Screenshot-2015-03-20-14-11-13.png)
 
-https://www.npmjs.com/package/watched
+[https://www.npmjs.com/package/watched](https://www.npmjs.com/package/watched)

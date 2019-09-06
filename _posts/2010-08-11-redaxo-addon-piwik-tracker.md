@@ -1,8 +1,10 @@
 ---
 layout: post
 title: 'REDAXO-Addon: Piwik-Tracker'
-description:
+description: "Fügt den Trackingcode für Piwik ein und zeigt eine grafische Mini-Statistik im REDAXO-Administrationsbereich."
+image: /content/images/2015/02/redaxo-piwik-tracker_1.png
 author: ds
+more: true
 ---
 
 _(See english version below.)_

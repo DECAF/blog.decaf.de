@@ -1,8 +1,9 @@
 ---
 layout: post
 title: 'REDAXO-Addons: Updates'
-description:
+description: "Zum Jahresende noch schnell in den Addons gewühlt und hier und dort geupdatet: Piwik Tracker, Upload Precompressor, Custom Prio."
 author: ds
+more: true
 ---
 
 Zum Jahresende noch schnell in den Addons gewühlt und hier und dort geupdatet:

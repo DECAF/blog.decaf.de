@@ -3,6 +3,7 @@ layout: post
 title: 'Musik auf Websites: Def Leppard gegen die Message.'
 description:
 author: ds
+more: true
 ---
 
 In einem Gespräch im SELFHTML-Forum geht es gerade darum, ob und in welcher Form es sinnvoll ist, **Musik auf Websites** einzubinden, die beim Betreten einer Seite *automatisch* abgespielt wird. Meinungen wie die nachfolgende sind dabei naheliegend:

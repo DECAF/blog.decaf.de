@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "iPhone + Resolution dependent layout (JS)"
-description:
+description: "Wie man die Viewport-Breite im mobilen Safari mit Hilfe des »Resolution dependent layout« verbessern kann."
+image: /content/images/2015/02/decaf-iphone.jpg
 author: ds
+more: true
 ---
-
 
 ![decaf-iphone](/content/images/2015/02/decaf-iphone.jpg)
 

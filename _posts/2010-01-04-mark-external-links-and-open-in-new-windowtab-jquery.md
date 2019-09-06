@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Mark external links and open in new window/tab (jQuery)
-description:
+description: "A jQuery snippet to parse external links and open them in new windows/tabs on click."
 author: ds
+more: true
 ---
 
 **Specs:**

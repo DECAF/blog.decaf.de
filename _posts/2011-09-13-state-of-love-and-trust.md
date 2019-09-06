@@ -20,6 +20,6 @@ Ich weiß nicht, wie *die* amerikanischen und englischen Webentwickler ticken, a
 Und: Ich schnappe immer wieder auf, welche guten Dinge auch hier um uns herum entwickelt werden, wie viel Potential hier steckt und welcher Austausch *unter der Haube* statt findet. Auffällig — und das passt zu Julies Text — ist dabei: Diejenigen, die am meisten rocken, reden oft nur wenig drüber. Diejenigen, die besonders viel Wind machen, sind die anderen. Nicht immer, aber oft.  
  Will sagen: Nicht nur reden, sondern auch machen! Wer viel redet, sollte gute Gründe und den passenden Anlass dafür haben. Selbstmarketing muss authentisch sein.
 
-_<small>– (via [Rodney](http://twitter.com/#!/rodneyrehm/status/113353829008941057))<small>_
+<small>– (via [Rodney](http://twitter.com/#!/rodneyrehm/status/113353829008941057))<small>
 
 

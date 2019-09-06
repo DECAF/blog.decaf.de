@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Kurzes URL-Schema in REDAXO
-description:
+description: "Eine Möglichkeit zur Verwendung eines kurzen URL-Schemas im Content-Management-System REDAXO (ab Version 4.2) und des hauseigenen Addons url_rewrite."
+image: /content/images/2015/02/shorturl.png
 author: ds
+more: true
 ---
-
 
 ![shorturl](/content/images/2015/02/shorturl.png)
 

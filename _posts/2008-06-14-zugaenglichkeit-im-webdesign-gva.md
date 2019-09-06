@@ -5,7 +5,6 @@ description:
 author: ds
 ---
 
-
 <del>Schöner Satz</del> Zwei schöne Sätze des Tages heute von Gerrit van Aaken zum Thema **»Zugänglichkeit im Webdesign«**:
 
 > Nun, ich tue mir zunehmend schwerer damit, mich als wahrhaft kompetenten Ansprechpartner für Fragen der Zugänglichkeit zu bezeichnen. Es ist ein bisschen wie in der Biochemie: Je mehr man weiß, desto weniger weiß man!  

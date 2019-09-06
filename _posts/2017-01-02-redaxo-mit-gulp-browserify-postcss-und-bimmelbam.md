@@ -6,6 +6,7 @@ description: Beispiel eines Frontend-Workflows zur Entwicklung einer REDAXO-Webs
 image: /content/images/2017/01/redaxo-mit-bimmelbam.png
 imageClass: seamless
 author: ds
+more: true
 ---
 
 Bei den [Friends Of REDAXO](https://github.com/FriendsOfREDAXO/Info) haben wir gestern einen __Frontend-Workflow__ zur Entwicklung einer REDAXO-Website veröffentlicht. Die daraus generierte Website schaut dann so aus:

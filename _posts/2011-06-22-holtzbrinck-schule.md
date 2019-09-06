@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Holtzbrinck-Schule
-description:
+description: "Im Portfolio: Relaunch der Holtzbrinck-Schule auf Basis von Drupal. Blog, Forum und Seminare."
+image: /content/images/2015/02/gvh_03.jpg
 author: ds
+more: true
 ---
 
 ![Holtzbrinck-Schule](/content/images/2015/02/gvh_03.jpg)

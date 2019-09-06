@@ -1,8 +1,10 @@
 ---
 layout: post
 title: 'Jobs: PHP + Laravel, TYPO3 Neos, Magento'
-description:
+description: "Wir suchen Senior PHP-Entwickler_innen zur Festanstellung in Berlin! / We’re looking for senior PHP developers for permanent position in Berlin!"
+image: /content/images/2015/03/laravel-neos-magento.png
 author: ds
+more: true
 ---
 
 ![Laravel, TYPO3 Neos, Magento](/content/images/2015/03/laravel-neos-magento.png)

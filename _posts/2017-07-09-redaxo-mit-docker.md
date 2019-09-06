@@ -6,6 +6,7 @@ description: Einfaches 🐳 Docker-Setup für REDAXO-Entwicklung. Mit Demo-Websi
 image: /content/images/2017/07/redaxo-demo-base.png
 imageClass: seamless 
 author: ds
+more: true
 ---
 
 Falls ihr schon immer [REDAXO](https://redaxo.org) testen wolltet, bisher aber keine Zeit oder Lust hattet, eine Entwicklungsumgebung einzurichten, das Setup zu durchlaufen und eine Demo zu installieren, könnt ihr mal unser __Docker-Setup__ benutzen, das wir neulich bei [Friends Of REDAXO](https://github.com/FriendsOfREDAXO/redaxo-mit-docker) veröffentlicht haben.

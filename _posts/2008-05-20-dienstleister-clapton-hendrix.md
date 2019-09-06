@@ -1,8 +1,9 @@
 ---
 layout: post
 title: 'Über Dienstleister, Clapton und Hendrix: Nothing else matters.'
-description:
+description: "Denke nicht, zu wissen, was das Beste ist, solange du nicht zumindest mit Leuten wie Eric Clapton oder Jimi Hendrix darüber gesprochen hast."
 author: ds
+more: true
 ---
 
 Ein Internetdienstleister – egal ob Einzelkämpfer, kleines Team oder Global Player – weiß für gewöhnlich sehr gut, was für seinen Kunden **das Beste** ist. Und falls er es nicht ganz genau weiß, hat er zumindest eine starke Vermutung, ein Bauchgefühl oder ein kompetentes Engel-Teufel-Duo auf den Schultern, das handfeste Infos vom Besten für den Kunden zuflüstern kann.  

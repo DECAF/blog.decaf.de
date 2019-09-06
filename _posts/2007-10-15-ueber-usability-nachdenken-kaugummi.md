@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 'Über Usability nachdenken: Kaugummi.'
-description:
+description: "Kaugummi kann, wenn man es richtig angeht, am Ende oben zugezwirbelt und sicher in der Hosentasche verstaut werden."
 author: ds
+more: true
 ---
-
 
 Ich kaue seit Jahren Kaugummi. Also nicht am Stück (**flppppp**), sondern immer mal wieder eins oder zwei am Tag. Und trotz dieser umfangreichen Praxiserfahrung mit dem Thema ist mir erst neulich die Erkenntnis gekommen, wie man die Anforderungen an **Benutzerfreundlichkeit beim Einpacken** einfacher erfüllen kann. Einpacken, genau. Beim Auspacken kann man ja nicht allzu viel falsch machen, beim Einpacken schon. Ohne sinnvolle Prozessoptimierung kann es schnell in die Hose gehen.
 

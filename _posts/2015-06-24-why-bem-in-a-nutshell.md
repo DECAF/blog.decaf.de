@@ -6,6 +6,7 @@ description: Specificity and inheritance do not play well in modular environment
 image: /content/images/2015/06/bem2.png
 imageClass: seamless
 author: ds
+more: true
 ---
 
 _(Update ~~2018~~ 2019: this stuff is still relevant if you’re not writing CSS-in-JS!)_

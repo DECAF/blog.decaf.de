@@ -1,7 +1,9 @@
 ---
 layout: post
 title: 'Jobs: Laravel in Berlin, Westfalen oder remote'
-description:
+description: "Wie cool wäre es, wenn du genau die richtige Person bist und das hier liest!"
+image: /content/images/2019/02/laravel_01.png
+imageClass: seamless
 author: ds
 ---
 

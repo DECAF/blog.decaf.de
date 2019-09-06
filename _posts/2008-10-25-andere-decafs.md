@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Andere DECAFs
-description:
+description: "Drei andere DECAFs. Viele Grüße von uns!"
 author: ds
+more: true
 ---
-
 
 Decaf ist die Kurzform von *decaffeinated*, englisch für entkoffeiniert. Wir haben unsere kleinfeine Agentur seinerzeit so genannt, weil <del>uns nichts besseres eingefallen ist</del>… <del>die Domain noch frei war</del>… __wir uns aufs Wesentliche konzentrieren__. Das Aroma also. Klar.
 

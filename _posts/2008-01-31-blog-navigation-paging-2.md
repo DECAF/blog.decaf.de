@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 'Blog-Navigation: Paging (2)'
-description:
+description: "Weblogs sind Ringordner. Wir blättern »ältere Beiträge« nach rechts/unten weiter und »neuere Beiträge« nach links/oben zurück."
 author: ds
+more: true
 ---
-
 
 *Dieser Artikel ist eine Ergänzung zum Thema Blog-Navigation. Der letzte Artikel über [Paging](http://blog.decaf.de/2008/01/blog-navigation-paging) in Weblogs wolle eine gängige Seiten-Navigation verbessern, die man häufig auch auf anderen Websites zu sehen bekommt, und die vom Benutzer recht intuitiv verstanden wird, wenn sie geschickt eingesetzt wird.*
 

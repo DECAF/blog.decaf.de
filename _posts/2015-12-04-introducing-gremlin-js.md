@@ -6,6 +6,7 @@ image: /content/images/2015/12/gremlinjs.png
 imageClass: seamless
 author: aw
 featured: true
+more: true
 ---
 
 __Summary: How to use [Gremlin.js](http://grml.in) with HTML [Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements) and [BEM](https://en.bem.info) CSS to build modular server-side driven websites, not web apps.__

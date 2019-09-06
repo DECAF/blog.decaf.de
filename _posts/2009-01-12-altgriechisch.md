@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Spricht hier jemand Altgriechisch?
-description:
+description: "Wir benötigen Hilfe bei der Übersetzung eines WordPress-Plugins. Interesse?"
 author: ds
+more: true
 ---
-
 
 > Brody’s got friends in every town and village from here to the Sudan, he speaks a dozen languages, knows every local custom, he’ll blend in, disappear, you’ll never see him again. With any luck, he’s got the grail already.  
 > <small>Indiana Jones</small>

@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Ghost 0.7.2 with public API
-description:
+description: The current Ghost release includes public API features. Still beta, but lovely. They made us build archives pages and tags pages. Awesome, thank you!
+image: /content/images/2015/12/decaf-blog-public-api.jpg
 author: ds
+more: true
 ---
 
 The Ghost folks recently published [0.7.2](http://dev.ghost.org/ghost-0-7-2/) including public API features. They’re still in beta which is why you have to activate them in the labs section of your Ghost admin.

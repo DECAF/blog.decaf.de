@@ -5,7 +5,6 @@ description:
 author: ds
 ---
 
-
 > In einem Expertenforum sollte man davon ausgehen, dass sich ein Haufen von taktischer Erfahrung ansammelt. Und dazu gehört dann eben auch, dass man Frames genauso in Frage stellt wie die Schottische Furche.  
 > <small>[XING-Forum »Webdesign und Usability«](https://www.xing.com/app/forum?op=showarticles;id=10373619;articleid=10413427#10413427), 2008</small>
 

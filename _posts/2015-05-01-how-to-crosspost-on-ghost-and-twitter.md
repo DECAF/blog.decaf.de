@@ -1,8 +1,10 @@
 ---
 layout: post
 title: How to crosspost on Ghost and Twitter
-description:
+description: We publish both on the blog — a ghost one — and on Twitter. It’s a whole manual workflow.
+image: /content/images/2015/05/twitter-ghost_01.png
 author: ds
+more: true
 ---
 
 We do not publish long posts that often. We're better off with short posts, and that is why we implemented some _crossposting feature_ for sharing thoughts both on the blog (Ghost) and on [Twitter](https://twitter.com/_DECAF/).

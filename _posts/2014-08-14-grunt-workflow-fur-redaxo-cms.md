@@ -5,6 +5,7 @@ featured: true
 description: Beispiel einer REDAXO-Installation innerhalb eines Grunt-Workflows.
 image: /content/images/2015/02/grunt-redaxo.png
 author: ds
+more: true
 ---
 
 ![grunt-redaxo](/content/images/2015/02/grunt-redaxo.png)

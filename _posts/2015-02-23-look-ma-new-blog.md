@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Look ma, new blog!
-description:
+description: "Wir haben ein neues Blog, in dem man schnell schreiben kann. Mit Markdown. Es basiert auf Ghost, und das ist ziemlich schlank und toll."
+image: /content/images/2015/02/ghost-org.jpg
 author: ds
+more: true
 ---
 
 __Das wurde jetzt wirklich Zeit.__ Wir haben den kühnen Plan, unsere Website neu zu machen. Sie ist von 2008; und das ist nicht mal mehr alt, sondern — für eine Website – eigentlich schon verwest.
