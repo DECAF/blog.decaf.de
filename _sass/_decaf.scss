@@ -1090,12 +1090,27 @@ body .nav a.subscribe-button:hover {
 
 
 
+
+.pagination {
+  @media only screen and (max-width: 500px) {
+    margin: 0 16px 40px 16px;
+    width: auto;
+  }
+}
+
 .extra-pagination {
   border-bottom: none;
-  margin-bottom: 80px;
+  width: 80%;
+  max-width: 710px;
+  margin: 0 auto 80px auto;
 
   &::after {
     display: none; // remove deco dot
+  }
+
+  @media only screen and (max-width: 500px) {
+    margin: -20px auto 60px auto;
+    width: auto;
   }
 }
 
