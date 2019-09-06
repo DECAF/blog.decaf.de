@@ -1,10 +1,8 @@
 ---
 layout: post
 title: REDAXO-Tag 2016 in Essen
-image: "/content/images/2016/06/redaxo-anne-ruhr.jpg"
-date: '2016-06-05 12:11:56'
-tags:
-- redaxo
+description:
+author: ds
 ---
 
 ![REDAXO anne Ruhr](/content/images/2016/06/redaxo-anne-ruhr.jpg)

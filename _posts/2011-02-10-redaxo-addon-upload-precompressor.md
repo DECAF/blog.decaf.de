@@ -1,10 +1,8 @@
 ---
 layout: post
 title: 'REDAXO-Addon: Upload Precompressor'
-image: "/content/images/2015/02/upload_precompressor_01.png"
-date: '2011-02-10 17:45:02'
-tags:
-- redaxo
+description:
+author: ds
 ---
 
 

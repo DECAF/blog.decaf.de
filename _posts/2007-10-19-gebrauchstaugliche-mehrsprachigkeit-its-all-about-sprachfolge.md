@@ -1,9 +1,8 @@
 ---
 layout: post
-title: 'Gebrauchstaugliche Mehrsprachigkeit: it''s all about Sprachfolge'
+title: 'Gebrauchstaugliche Mehrsprachigkeit: it’s all about Sprachfolge'
 description:
 author: ds
-categories: []
 ---
 
 

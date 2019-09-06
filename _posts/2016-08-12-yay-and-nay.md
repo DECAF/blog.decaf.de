@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Yay and nay
-date: '2016-08-12 14:33:00'
-tags:
-- note
+description:
+author: ds
 ---
 
 Three things that helped us move forward:

@@ -1,11 +1,8 @@
 ---
 layout: post
 title: VIRGIN TALES Film
-image: "/content/images/2015/02/virgintales.jpg"
-date: '2012-05-14 12:55:44'
-tags:
-- portfolio
-- wordpress
+description:
+author: ds
 ---
 
 

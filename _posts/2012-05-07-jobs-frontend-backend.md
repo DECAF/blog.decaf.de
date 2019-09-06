@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 'Jobs: Frontend + Backend'
-date: '2012-05-07 13:32:56'
-tags:
-- jobs
+description:
+author: ds
 ---
 
 Wir suchen <del>mal wieder</del> immer noch Verstärkung. In Berlin, dem *Glastonbury Festival* der Freelancer, ist das aktuell nicht ganz einfach. Deshalb freuen wir uns sehr über Tips, Tweets, Weitererzählungen oder Empfehlungen von Euch. Vielen herzlichen Dank!

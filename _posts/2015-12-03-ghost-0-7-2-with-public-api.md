@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Ghost 0.7.2 with public API
-image: "/content/images/2015/12/decaf-blog-public-api.jpg"
-date: '2015-12-03 11:17:17'
-tags:
-- tryghost
+description:
+author: ds
 ---
 
 The Ghost folks recently published [0.7.2](http://dev.ghost.org/ghost-0-7-2/) including public API features. They’re still in beta which is why you have to activate them in the labs section of your Ghost admin.

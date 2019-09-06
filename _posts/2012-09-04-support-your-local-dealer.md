@@ -1,13 +1,9 @@
 ---
 layout: post
 title: 'Kaffee am Ende der Welt: Support your local dealer.'
-image: "/content/images/2015/02/am-ende-der-welt.jpg"
-date: '2012-09-04 01:42:07'
-tags:
-- berlin
-- kaffee
+description:
+author: ds
 ---
-
 
 ![Cafe am Ende der Welt](/content/images/2015/02/am-ende-der-welt.jpg)
 

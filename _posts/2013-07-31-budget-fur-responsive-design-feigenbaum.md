@@ -1,10 +1,8 @@
 ---
 layout: post
 title: 'Budget für responsive Design: Feigenbaum'
-date: '2013-07-31 11:06:36'
-tags:
-- design
-- note
+description:
+author: ds
 ---
 
 Zweikommafünfirgendwas. Das ist der Faktor, mit dem das Frontend-Budget multipliziert werden kann, wenn die Anforderung »Responsive Webdesign (RWD)« genannt wird.

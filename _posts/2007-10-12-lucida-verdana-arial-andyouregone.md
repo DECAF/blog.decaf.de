@@ -3,7 +3,6 @@ layout: post
 title: 'Lucida: And you''re gone.'
 description:
 author: ds
-categories: []
 ---
 
 

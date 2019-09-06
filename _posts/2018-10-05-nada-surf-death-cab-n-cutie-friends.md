@@ -3,7 +3,6 @@ layout: post
 title: Nada Surf Death Cab ’n Cutie Friends
 description:
 author: ds
-categories: [note]
 ---
 
 Favorite office playlist. ❤️

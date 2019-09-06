@@ -1,11 +1,8 @@
 ---
 layout: post
 title: mailto:staff
-image: "/content/images/2015/02/screenshot-1.png"
-date: '2009-01-08 17:40:19'
-tags:
-- wordpress
-- note
+description:
+author: ds
 ---
 
 

@@ -3,7 +3,6 @@ layout: post
 title: Usability (Q5)
 description:
 author: ds
-categories: [note]
 ---
 
 

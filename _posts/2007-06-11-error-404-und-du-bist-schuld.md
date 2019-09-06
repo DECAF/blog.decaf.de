@@ -3,7 +3,6 @@ layout: post
 title: Error 404, und du bist schuld!
 description:
 author: ds
-categories: []
 ---
 
 Angeregt durch eine [Diskussion](https://www.xing.com/app/forum?op=showarticles;id=4522062;articleid=4522062#4522062) in der XING-Gruppe »[Webdesign und Usability](https://www.xing.com/net/webdesignundusability)« möchte ich hier eine handvoll Gründe einwerfen, warum die Meldung, die vom Server mit einem 404er ausgegeben wird, in der Regel weder höflich noch hilfreich ist.

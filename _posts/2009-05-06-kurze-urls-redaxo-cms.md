@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Kurzes URL-Schema in REDAXO
-image: "/content/images/2015/02/shorturl.png"
-date: '2009-05-06 18:36:27'
-tags:
-- redaxo
+description:
+author: ds
 ---
 
 

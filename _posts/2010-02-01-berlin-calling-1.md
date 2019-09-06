@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Berlin Calling (1)
-date: '2010-02-01 11:52:23'
-tags:
-- berlin
-- jobs
-- note
+description:
+author: ds
 ---
 
 Guten Tag,  

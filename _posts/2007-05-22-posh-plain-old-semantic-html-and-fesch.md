@@ -3,7 +3,6 @@ layout: post
 title: 'POSH, FESCH and ROW: We got it together, baby.'
 description:
 author: ds
-categories: [note]
 ---
 
 ![POSH](/content/images/2015/02/are_you_posh.png)

@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Hamster, Roboter, Küken, Fernseher, Blume.
-image: "/content/images/2015/02/berenbrinker_03.jpg"
-date: '2009-03-12 18:16:31'
-tags:
-- portfolio
-- note
+description:
+author: ds
 ---
 
 

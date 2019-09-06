@@ -1,12 +1,8 @@
 ---
 layout: post
 title: "* Shop! Hier entlang:"
-image: "/content/images/2015/02/kalason-shop.png"
-date: '2012-12-01 00:07:16'
-tags:
-- portfolio
-- redaxo
-- note
+description:
+author: ds
 ---
 
 ![Kalason-Shop](/content/images/2015/02/kalason-shop.png)

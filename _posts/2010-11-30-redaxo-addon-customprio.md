@@ -1,10 +1,8 @@
 ---
 layout: post
 title: 'REDAXO-Addon: CustomPrio'
-date: '2010-11-30 18:03:11'
-tags:
-- redaxo
-- note
+description:
+author: ds
 ---
 
 Ein kleines Helferlein veröffentlicht:

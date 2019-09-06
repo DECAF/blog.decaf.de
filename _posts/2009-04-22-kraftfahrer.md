@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Kraftfahrer
-date: '2009-04-22 13:21:05'
-tags:
-- note
+description:
+author: ds
 ---
 
 

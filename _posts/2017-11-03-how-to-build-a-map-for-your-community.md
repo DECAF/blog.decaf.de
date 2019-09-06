@@ -1,9 +1,9 @@
 ---
 layout: post
 title: How to build a simple map for your community
+featured: true
 description:
 author: ds
-categories: [featured]
 ---
 
 __The article describes how to create a simple but beautiful world map which is powered by [GitHub Pages](https://pages.github.com) and [Leaflet](http://leafletjs.com) that allows for your users to add and manage their entries themselves.__

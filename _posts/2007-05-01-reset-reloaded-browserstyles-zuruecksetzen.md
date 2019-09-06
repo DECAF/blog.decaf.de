@@ -3,7 +3,6 @@ layout: post
 title: "»Reset Reloaded«: Browserstyles zurücksetzen"
 description:
 author: ds
-categories: []
 ---
 
 Browser tragen bekanntlich ein **internes Basisstylesheet** mit sich rum, das auf jedes Dokument angewendet wird, um eine Grundstruktur zu erreichen. Das ist sinnvoll und sorgt dafür, dass auch Dokumente ohne ein eigenes Stylesheet strukturiert sind: Überschriften werden hervorgehoben, Textabsätze haben einen Abstand nach unten, Listen werden eingerückt, etc.

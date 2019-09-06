@@ -3,7 +3,6 @@ layout: post
 title: Hausmeister
 description:
 author: ds
-categories: [note]
 ---
 
 

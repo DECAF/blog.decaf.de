@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Freitag abend
-date: '2010-02-07 15:46:38'
-tags:
-- note
+description:
+author: ds
 ---
 
 Rückmeldung zum Angebot von 20:51 Uhr:

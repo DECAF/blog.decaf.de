@@ -3,7 +3,6 @@ layout: post
 title: '10 Jahre SELFHTML-Forum: Meine Visitenkarte'
 description:
 author: ds
-categories: []
 ---
 
 <img style="outline: none;" src="/content/images/2015/02/selfhtml-10.gif" alt="10 Jahre SELFHTML-Forum">

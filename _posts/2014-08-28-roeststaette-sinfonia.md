@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Röststätte – Sinfonia
-image: "/content/images/2015/02/roeststaette-sinfonia.jpg"
-date: '2014-08-28 11:20:23'
-tags:
-- berlin
-- kaffee
-- note
+description:
+author: ds
 ---
 
 ![roeststaette-sinfonia](/content/images/2015/02/roeststaette-sinfonia.jpg)

@@ -3,7 +3,6 @@ layout: post
 title: Post von Wagner
 description:
 author: ds
-categories: [note]
 ---
 
 ![Post für Monsieur Christian Thielemann](/content/images/2018/03/post-von-wagner.jpg)

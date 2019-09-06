@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Frontend-Entwickler, v-f-B-now!
-date: '2011-01-29 02:24:42'
-tags:
-- jobs
+description:
+author: ds
 ---
 
 

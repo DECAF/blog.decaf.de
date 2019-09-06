@@ -1,11 +1,8 @@
 ---
 layout: post
 title: REDAXO-Tag 2017 in Wackershofen
-image: "/content/images/2016/10/wackershofen.jpg"
-date: '2016-10-12 21:07:20'
-tags:
-- note
-- redaxo
+description:
+author: ds
 ---
 
 Der letzte REDAXO-Tag war im [Unperfekthaus in Essen](https://blog.decaf.de/2016/06/05/redaxo-tag-2016-in-essen/). Der nächste wird an einem ziemlich abgefahrenen Ort sein: im __Gasthaus »Roter Ochse«__:

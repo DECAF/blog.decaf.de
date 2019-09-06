@@ -1,12 +1,8 @@
 ---
 layout: post
 title: SEED WARRIORS
-image: "/content/images/2015/02/seedwarriors.jpg"
-date: '2010-01-12 18:45:49'
-tags:
-- portfolio
-- redaxo
-- note
+description:
+author: ds
 ---
 
 ![SEED WARRIORS](/content/images/2015/02/seedwarriors.jpg)

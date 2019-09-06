@@ -2,11 +2,8 @@
 layout: post
 title: REDAXO mit Gulp, Browserify, PostCSS und Bimmelbam
 featured: true
-image: "/content/images/2017/01/redaxo-mit-bimmelbam.png"
-date: '2017-01-02 16:08:21'
-tags:
-- note
-- redaxo
+description:
+author: ds
 ---
 
 Bei den [Friends Of REDAXO](https://github.com/FriendsOfREDAXO/Info) haben wir gestern einen __Frontend-Workflow__ zur Entwicklung einer REDAXO-Website veröffentlicht. Die daraus generierte Website schaut dann so aus:

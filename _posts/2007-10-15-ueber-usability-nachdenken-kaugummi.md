@@ -3,7 +3,6 @@ layout: post
 title: 'Über Usability nachdenken: Kaugummi.'
 description:
 author: ds
-categories: []
 ---
 
 

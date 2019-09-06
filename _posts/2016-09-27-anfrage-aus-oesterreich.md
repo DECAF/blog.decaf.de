@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Anfrage aus Österreich
-date: '2016-09-27 11:23:39'
-tags:
-- decaf
-- kaffee
+description:
+author: ds
 ---
 
 Schöne Geschichte: Neulich rief eine Frau an 🙋, die sehr höflich fragte, ob es richtig sei, dass wir keine Niederlassung in Österreich 🇦🇹 hätten.

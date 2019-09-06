@@ -3,7 +3,6 @@ layout: post
 title: 'Jobs: Laravel in Berlin, Westfalen oder remote'
 description:
 author: ds
-categories: []
 ---
 
 _(Wie cool wäre es, wenn du genau die richtige Person bist und das hier liest!)_

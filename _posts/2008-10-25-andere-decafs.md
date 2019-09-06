@@ -3,7 +3,6 @@ layout: post
 title: Andere DECAFs
 description:
 author: ds
-categories: []
 ---
 
 

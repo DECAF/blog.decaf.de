@@ -3,7 +3,6 @@ layout: post
 title: Stulle at MoMA
 description:
 author: ds
-categories: [note]
 ---
 
 We feel happy to announce that the Berlin »**Stulle**« is featured by the NYC’s Museum of Modern Art ([MoMA](http://www.moma.org)).

@@ -1,11 +1,8 @@
 ---
 layout: post
 title: mailto:staff 3.0 – Custom roles FTW!
-image: "/content/images/2015/02/mailto-staff-3.jpg"
-date: '2014-02-02 00:59:15'
-tags:
-- wordpress
-- note
+description:
+author: ds
 ---
 
 ![mailto-staff](/content/images/2015/02/mailto-staff-3.jpg)

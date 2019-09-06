@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Mark external links and open in new window/tab (jQuery)
-date: '2010-01-04 13:50:23'
-tags:
-- jquery
+description:
+author: ds
 ---
 
 **Specs:**

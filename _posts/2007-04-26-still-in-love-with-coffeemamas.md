@@ -3,7 +3,6 @@ layout: post
 title: Still in love with..
 description:
 author: ds
-categories: []
 ---
 
 Said this about 2 years ago when they asked my about [my love](http://www.vorsprungdurchwebstandards.de/interviews/fallinginlovewithcss/dirk-schuerjohann/) (to CSS):

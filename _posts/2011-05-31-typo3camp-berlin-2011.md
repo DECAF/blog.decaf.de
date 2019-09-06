@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Hallo TYPO3camp Berlin!
-image: "/content/images/2015/02/t3c-c-p_logo_horizontal.png"
-date: '2011-05-31 11:43:46'
-tags:
-- typo3
-- berlin
+description:
+author: ds
 ---
 
 

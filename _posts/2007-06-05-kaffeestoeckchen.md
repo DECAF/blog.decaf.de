@@ -3,7 +3,6 @@ layout: post
 title: "»Kaffeestöckchen«"
 description:
 author: ds
-categories: []
 ---
 
 Der **Herr Fiene** – Radiomacher, Podcastbuchautor, Allerweltsblogger und irgend[was mit Medien](http://www.wasmitmedien.de/) – hätte da mal ein paar [Fragen zum Kaffee](http://www.mywebwork.de/fiene.tv/archive/2007/06/02/fiene-kaffeestockchen-2/). Und wenn es um Kaffee geht, fangen wir gerne Stöckchen:

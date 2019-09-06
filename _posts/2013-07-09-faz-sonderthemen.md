@@ -1,12 +1,8 @@
 ---
 layout: post
 title: 'FAZ: Sonderthemen'
-image: "/content/images/2015/02/3344331230.jpg"
-date: '2013-07-09 14:06:32'
-tags:
-- java
-- portfolio
-- note
+description:
+author: ds
 ---
 
 

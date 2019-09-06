@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Schöne Kommentare in Quellkode
-date: '2011-08-15 10:21:18'
-tags:
-- note
+description:
+author: ds
 ---
 
 ```

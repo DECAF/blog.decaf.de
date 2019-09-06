@@ -1,11 +1,8 @@
 ---
 layout: post
 title: 'WordPress-Plugins: Update von mailto:staff'
-image: "/content/images/2015/02/mailto-staff.png"
-date: '2011-07-23 16:38:04'
-tags:
-- wordpress
-- note
+description:
+author: ds
 ---
 
 ![mailto-staff](/content/images/2015/02/mailto-staff.png)

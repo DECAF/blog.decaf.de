@@ -1,10 +1,8 @@
 ---
 layout: post
 title: 'watched: Live, event driven dom element collections'
-date: '2015-03-20 13:18:03'
-tags:
-- note
-- gremlins
+description:
+author: ds
 ---
 
 Ohai, __watched__! [Andreas](http://blog.decaf.de/author/andreas/) published some `MutationObserver` stuff last week:

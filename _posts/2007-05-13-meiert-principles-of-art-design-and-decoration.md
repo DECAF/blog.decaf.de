@@ -3,7 +3,6 @@ layout: post
 title: 'Meiert: »Principles of art, design, and decoration«'
 description:
 author: ds
-categories: [note]
 ---
 
 I just came across **Jens Meiert**‘s article about »[principles of art, design, and decoration](http://meiert.com/en/blog/20070512/principles-of-art-design-and-decoration/)«. And, hum, as I dwell upon communication design (beside coffee and stuff) while pretty often being confronted with websites to be *dolled up* for barbie contest, I’d love to refer to Meiert’s statement

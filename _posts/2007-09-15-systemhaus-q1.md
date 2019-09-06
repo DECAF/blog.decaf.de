@@ -3,7 +3,6 @@ layout: post
 title: Systemhaus (Q1)
 description:
 author: ds
-categories: [note]
 ---
 
 

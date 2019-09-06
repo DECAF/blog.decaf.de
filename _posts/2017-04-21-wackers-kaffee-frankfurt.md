@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Wacker’s
-image: "/content/images/2017/04/wacker.jpg"
-date: '2017-04-21 07:13:25'
-tags:
-- coffee
-- note
+description:
+author: ds
 ---
 
 ![Wacker’s Kaffee, Frankfurt](/content/images/2017/04/wacker.jpg)

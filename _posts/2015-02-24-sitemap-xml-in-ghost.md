@@ -1,10 +1,8 @@
 ---
 layout: post
 title: 'Ghost: Wie erstellt man eine sitemap.xml?'
-image: "/content/images/2015/02/sitemap-xml_01.png"
-date: '2015-02-24 10:01:23'
-tags:
-- tryghost
+description:
+author: ds
 ---
 
 > There's an app for that.

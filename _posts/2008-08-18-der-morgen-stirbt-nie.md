@@ -3,7 +3,6 @@ layout: post
 title: Der Morgen stirbt nie.
 description:
 author: ds
-categories: [note]
 ---
 
 

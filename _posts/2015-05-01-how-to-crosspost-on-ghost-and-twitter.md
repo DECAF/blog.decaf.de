@@ -1,10 +1,8 @@
 ---
 layout: post
 title: How to crosspost on Ghost and Twitter
-image: "/content/images/2015/05/twitter-ghost_01.png"
-date: '2015-05-01 16:39:00'
-tags:
-- tryghost
+description:
+author: ds
 ---
 
 We do not publish long posts that often. We're better off with short posts, and that is why we implemented some _crossposting feature_ for sharing thoughts both on the blog (Ghost) and on [Twitter](https://twitter.com/_DECAF/).

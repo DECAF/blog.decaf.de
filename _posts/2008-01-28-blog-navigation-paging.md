@@ -3,7 +3,6 @@ layout: post
 title: 'Blog-Navigation: Paging'
 description:
 author: ds
-categories: []
 ---
 
 

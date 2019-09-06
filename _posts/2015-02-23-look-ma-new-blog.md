@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Look ma, new blog!
-image: "/content/images/2015/02/ghost-org.jpg"
-date: '2015-02-23 10:33:49'
-tags:
-- tryghost
-- decaf
+description:
+author: ds
 ---
 
 __Das wurde jetzt wirklich Zeit.__ Wir haben den kühnen Plan, unsere Website neu zu machen. Sie ist von 2008; und das ist nicht mal mehr alt, sondern — für eine Website – eigentlich schon verwest.

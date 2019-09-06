@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Ghost 0.6, Einsnull und WordPress
-image: "/content/images/2015/04/ghost-0-6.png"
-date: '2015-04-14 13:37:40'
-tags:
-- wordpress
-- tryghost
+description:
+author: ds
 ---
 
 Gestern wurde [Ghost 0.6.0 veröffentlicht](http://dev.ghost.org/ghost-0-6-0/). Ein Minor-Update (von 0.5.10) mit nur wenigen neuen Features:

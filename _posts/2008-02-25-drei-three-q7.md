@@ -3,7 +3,6 @@ layout: post
 title: Drei. Three. (Q7)
 description:
 author: ds
-categories: [note]
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 title: iPhone-like password fields using jQuery
 description:
 author: su
-categories: [featured]
+featured: true
 ---
 
 **or: Delayed password masking with JavaScript.**

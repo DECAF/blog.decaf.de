@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Frontend-Entwickler (m/w), fest, voll, Berlin.
-date: '2010-09-22 23:45:05'
-tags:
-- jobs
+description:
+author: ds
 ---
 
 In Kurzform: Wir suchen einen *screendesignenden* Frontend-Entwickler (m/w). Vollzeit, Festanstellung, zum nächstmöglichen Zeitpunkt.

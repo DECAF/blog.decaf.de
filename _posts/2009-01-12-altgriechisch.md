@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Spricht hier jemand Altgriechisch?
-date: '2009-01-12 23:37:34'
-tags:
-- wordpress
+description:
+author: ds
 ---
 
 

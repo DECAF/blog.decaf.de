@@ -3,7 +3,6 @@ layout: post
 title: 'Über Dienstleister, Clapton und Hendrix: Nothing else matters.'
 description:
 author: ds
-categories: []
 ---
 
 Ein Internetdienstleister – egal ob Einzelkämpfer, kleines Team oder Global Player – weiß für gewöhnlich sehr gut, was für seinen Kunden **das Beste** ist. Und falls er es nicht ganz genau weiß, hat er zumindest eine starke Vermutung, ein Bauchgefühl oder ein kompetentes Engel-Teufel-Duo auf den Schultern, das handfeste Infos vom Besten für den Kunden zuflüstern kann.  

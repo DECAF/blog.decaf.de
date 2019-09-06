@@ -1,12 +1,9 @@
 ---
 layout: post
 title: 'REDAXO-Addons: Updates'
-date: '2013-12-29 01:21:33'
-tags:
-- indiana-jones
-- redaxo
+description:
+author: ds
 ---
-
 
 Zum Jahresende noch schnell in den Addons gewühlt und hier und dort geupdatet:
 

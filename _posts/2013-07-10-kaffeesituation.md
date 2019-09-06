@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Kaffeesituation
-image: "/content/images/2015/02/coffee_01.jpg"
-date: '2013-07-10 10:42:01'
-tags:
-- indiana-jones
-- kaffee
+description:
+author: ds
 ---
 
 Um es kurz zu machen: Normalerweise haben wir ja den hier:

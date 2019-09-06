@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Human-Coffee Interaction, HCI (1)
-image: "/content/images/2015/02/kaffee_01.jpg"
-date: '2011-02-22 11:53:49'
-tags:
-- kaffee
-- usability
+description:
+author: ds
 ---
 
 

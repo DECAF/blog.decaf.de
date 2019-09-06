@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Award-winning
-image: "/content/images/2016/08/superheroes.png"
-date: '2016-08-15 19:02:08'
-tags:
-- note
-- decaf
+description:
+author: ds
 ---
 
 🎗 We’re are a not well-known non-award winning web ~~design~~ development company! 🎗

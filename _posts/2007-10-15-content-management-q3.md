@@ -3,7 +3,6 @@ layout: post
 title: Content Management (Q3)
 description:
 author: ds
-categories: [note]
 ---
 
 

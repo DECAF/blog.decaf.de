@@ -3,7 +3,6 @@ layout: post
 title: One link to rule 'em all
 description:
 author: ds
-categories: [note]
 ---
 
 

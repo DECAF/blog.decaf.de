@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Holtzbrinck-Schule
-image: "/content/images/2015/02/gvh_03.jpg"
-date: '2011-06-22 15:19:38'
-tags:
-- drupal
-- portfolio
+description:
+author: ds
 ---
 
 ![Holtzbrinck-Schule](/content/images/2015/02/gvh_03.jpg)

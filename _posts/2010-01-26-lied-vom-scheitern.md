@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Lied vom Scheitern.
-date: '2010-01-26 17:50:50'
-tags:
-- selfhtml
-- note
+description:
+author: ds
 ---
 
 

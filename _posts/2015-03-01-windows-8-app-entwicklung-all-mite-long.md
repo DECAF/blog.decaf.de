@@ -2,11 +2,8 @@
 layout: post
 title: 'Windows 8 App-Entwicklung: All mite long.'
 featured: true
-image: "/content/images/2015/02/allmite_01.png"
-date: '2015-03-01 00:22:10'
-tags:
-- windows-8
-- decaf
+description:
+author: ds
 ---
 
 Ein Rückblick. __2013__ haben wir einige Zeit mit App-Entwicklung für Windows 8 verbracht. Denn wir waren recht überzeugt davon, dass Microsoft ein ganz nettes System erschaffen hatte. Zumindest das Konzept und die Basis eines netten Systems, denn was die Ausführung angeht, gilt immer die alte Regel: Finger weg vom ersten Release eines Produkts!

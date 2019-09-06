@@ -1,13 +1,9 @@
 ---
 layout: post
 title: GLEICH Aluminium
-image: "/content/images/2015/02/gleich_01.jpg"
-date: '2012-10-20 01:13:44'
-tags:
-- portfolio
-- redaxo
+description:
+author: ds
 ---
-
 
 ![Screenshot 1](/content/images/2015/02/gleich_01.jpg)
 

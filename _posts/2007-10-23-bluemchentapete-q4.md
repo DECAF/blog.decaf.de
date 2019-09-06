@@ -3,7 +3,6 @@ layout: post
 title: Blümchentapete (Q4)
 description:
 author: ds
-categories: [note]
 ---
 
 

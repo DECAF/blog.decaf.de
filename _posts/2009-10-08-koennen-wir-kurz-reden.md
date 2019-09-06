@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Können wir kurz reden?
-date: '2009-10-08 23:32:34'
-tags:
-- webstandards-magazin
+description:
+author: ds
 ---
 
 Es geht um [**Twitter**](http://twitter.com), und ich habe hier ein paar Probleme. — Twitter ist eine dieser Webanwendungen, deren Technik schneller verständlich ist als das Konzept. Technisch gesehen schreibt man nämlich einfach »was rein«, konzeptionell hat man anfangs jedoch nur eine vage Vorstellung davon, wer es liest. Und warum.

@@ -2,12 +2,8 @@
 layout: post
 title: "‘Why BEM?’ in a nutshell"
 featured: true
-image: "/content/images/2015/06/bem2.png"
-date: '2015-06-24 15:34:15'
-tags:
-- css
-- bem
-- web-components
+description:
+author: ds
 ---
 
 _(Update ~~2018~~ 2019: this stuff is still relevant if you’re not writing CSS-in-JS!)_

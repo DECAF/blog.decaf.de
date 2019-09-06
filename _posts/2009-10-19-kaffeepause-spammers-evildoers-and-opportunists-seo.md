@@ -1,10 +1,8 @@
 ---
 layout: post
 title: 'Kaffeepause: »Spammers, Evildoers, and Opportunists« (SEO)'
-date: '2009-10-19 09:45:57'
-tags:
-- webkultur
-- note
+description:
+author: ds
 ---
 
 Stoff für die Kaffeepause? Heute zum Thema SEO und direkt in die Magengrube: [**Spammers, Evildoers, and Opportunists**](http://powazek.com/posts/2090) (Derek Powazek).

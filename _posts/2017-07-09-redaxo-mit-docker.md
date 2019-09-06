@@ -2,11 +2,8 @@
 layout: post
 title: "REDAXO mit Docker \U0001F433"
 featured: true
-image: "/content/images/2017/07/redaxo-demo-base.png"
-date: '2017-07-09 16:33:05'
-tags:
-- redaxo
-- note
+description:
+author: ds
 ---
 
 Falls ihr schon immer [REDAXO](https://redaxo.org) testen wolltet, bisher aber keine Zeit oder Lust hattet, eine Entwicklungsumgebung einzurichten, das Setup zu durchlaufen und eine Demo zu installieren, könnt ihr mal unser __Docker-Setup__ benutzen, das wir neulich bei [Friends Of REDAXO](https://github.com/FriendsOfREDAXO/redaxo-mit-docker) veröffentlicht haben.

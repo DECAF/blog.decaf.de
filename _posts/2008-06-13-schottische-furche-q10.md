@@ -3,7 +3,6 @@ layout: post
 title: Schottische Furche (Q10)
 description:
 author: ds
-categories: [note]
 ---
 
 

@@ -3,7 +3,6 @@ layout: post
 title: Kaltakquise
 description:
 author: ds
-categories: [note]
 ---
 
 

@@ -2,11 +2,8 @@
 layout: post
 title: Grunt-Workflow für REDAXO CMS
 featured: true
-image: "/content/images/2015/02/grunt-redaxo.png"
-date: '2014-08-14 12:29:58'
-tags:
-- indiana-jones
-- redaxo
+description:
+author: ds
 ---
 
 ![grunt-redaxo](/content/images/2015/02/grunt-redaxo.png)

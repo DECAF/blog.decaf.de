@@ -1,9 +1,8 @@
 ---
 layout: post
 title: State of Love and Trust
-date: '2011-09-13 11:19:16'
-tags:
-- webkultur
+description:
+author: ds
 ---
 
 Manchmal trifft man auf Texte, die nicht mehr nur mit einem Nicken verarbeitet werden wollen. [Julie Ng](http://blog.julieng.me/) hat einen geschrieben, den ich gerne verlinken möchte:

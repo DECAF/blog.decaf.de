@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Agile Softwareentwicklung
-date: '2011-04-12 13:51:13'
-tags:
-- note
+description:
+author: ds
 ---
 
 

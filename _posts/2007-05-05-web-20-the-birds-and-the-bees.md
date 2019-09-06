@@ -3,7 +3,6 @@ layout: post
 title: Web 2.0 - the birds and the bees
 description:
 author: ds
-categories: [note]
 ---
 
 ![Web 2.0](/content/images/2015/02/web20.png)

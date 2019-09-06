@@ -3,7 +3,6 @@ layout: post
 title: Zugänglichkeit im Webdesign, GvA
 description:
 author: ds
-categories: []
 ---
 
 

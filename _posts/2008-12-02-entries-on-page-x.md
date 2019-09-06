@@ -3,7 +3,6 @@ layout: post
 title: Entries on page x
 description:
 author: ds
-categories: [note]
 ---
 
 

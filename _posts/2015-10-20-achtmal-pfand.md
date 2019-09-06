@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Achtmal Pfand
-date: '2015-10-20 07:47:30'
-tags:
-- note
-- berlin
+description:
+author: ds
 ---
 
 <small>Bringe leere Club Mate Cola zurück zum [Späti](https://de.wikipedia.org/wiki/Spätkauf) nebenan.</small>

@@ -3,7 +3,6 @@ layout: post
 title: 'Blog-Navigation: Chronologie.'
 description:
 author: ds
-categories: []
 ---
 
 

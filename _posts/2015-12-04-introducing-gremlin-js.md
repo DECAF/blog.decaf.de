@@ -3,7 +3,7 @@ layout: post
 title: 'Introducing Gremlin.js: web components for websites, not apps.'
 description:
 author: aw
-categories: [featured]
+featured: true
 ---
 
 __Summary: How to use [Gremlin.js](http://grml.in) with HTML [Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Custom_Elements) and [BEM](https://en.bem.info) CSS to build modular server-side driven websites, not web apps.__

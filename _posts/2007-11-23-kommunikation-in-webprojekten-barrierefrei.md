@@ -3,7 +3,6 @@ layout: post
 title: 'Kommunikation in Webprojekten: barrierefrei.'
 description:
 author: ds
-categories: []
 ---
 
 

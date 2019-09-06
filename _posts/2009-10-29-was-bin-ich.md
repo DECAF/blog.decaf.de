@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Was* bin ich?
-date: '2009-10-29 20:42:04'
-tags:
-- webkultur
-- note
+description:
+author: ds
 ---
 
 1. **Langweilig.**  

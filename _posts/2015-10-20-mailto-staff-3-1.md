@@ -1,11 +1,8 @@
 ---
 layout: post
 title: mailto:staff 3.1 for WordPress
-image: "/content/images/2015/10/mailto-staff.png"
-date: '2015-10-20 10:23:45'
-tags:
-- note
-- wordpress
+description:
+author: ds
 ---
 
 ![mailto:staff](/content/images/2015/10/mailto-staff.png)

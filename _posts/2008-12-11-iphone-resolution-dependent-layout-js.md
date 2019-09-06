@@ -1,10 +1,8 @@
 ---
 layout: post
-title: iPhone + Resolution dependent layout (JS)
-image: "/content/images/2015/02/decaf-iphone.jpg"
-date: '2008-12-11 14:30:38'
-tags:
-- design
+title: "iPhone + Resolution dependent layout (JS)"
+description:
+author: ds
 ---
 
 

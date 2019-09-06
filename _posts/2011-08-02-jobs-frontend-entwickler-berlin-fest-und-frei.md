@@ -1,10 +1,8 @@
 ---
 layout: post
 title: 'Jobs: Frontend-Entwickler, Berlin, fest und frei.'
-date: '2011-08-02 14:30:21'
-tags:
-- berlin
-- jobs
+description:
+author: ds
 ---
 
 

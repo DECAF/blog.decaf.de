@@ -1,10 +1,8 @@
 ---
 layout: post
 title: 'REDAXO-Addon: Piwik-Tracker'
-image: "/content/images/2015/02/redaxo-piwik-tracker_1.png"
-date: '2010-08-11 17:32:33'
-tags:
-- redaxo
+description:
+author: ds
 ---
 
 _(See english version below.)_

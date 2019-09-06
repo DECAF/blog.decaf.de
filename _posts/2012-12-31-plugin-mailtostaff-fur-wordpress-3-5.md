@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Plugin ›mailto:staff‹ für WordPress 3.5
-image: "/content/images/2015/02/mailtostaff.jpg"
-date: '2012-12-31 17:18:04'
-tags:
-- wordpress
-- note
+description:
+author: ds
 ---
 
 ![mailtostaff](/content/images/2015/02/mailtostaff.jpg)

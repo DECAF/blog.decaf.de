@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Überlegungen zum '2009 Open Source CMS Report'
-date: '2009-10-27 00:23:59'
-tags:
-- cms
+description:
+author: ds
 ---
 
 ![os_cms_report-2009](/content/images/2015/02/os_cms_report-2009.png)

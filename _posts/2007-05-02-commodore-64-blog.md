@@ -3,7 +3,6 @@ layout: post
 title: Commodore 64 Blog
 description:
 author: ds
-categories: [note]
 ---
 
 WordPress blog turned into a [Commodore 64](http://en.wikipedia.org/wiki/Commodore_64):

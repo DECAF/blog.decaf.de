@@ -1,11 +1,8 @@
 ---
 layout: post
 title: 'Once more: BEM'
-image: "/content/images/2015/06/bem2.png"
-date: '2015-09-11 10:54:33'
-tags:
-- note
-- bem
+description:
+author: ds
 ---
 
 <img style="width: 15%; outline: none;" src="/content/images/2015/06/bem2.png" alt="BEM">

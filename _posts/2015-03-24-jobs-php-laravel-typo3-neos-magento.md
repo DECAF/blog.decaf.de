@@ -1,12 +1,8 @@
 ---
 layout: post
 title: 'Jobs: PHP + Laravel, TYPO3 Neos, Magento'
-image: "/content/images/2015/03/laravel-neos-magento.png"
-date: '2015-03-24 20:54:53'
-tags:
-- laravel
-- neos
-- magento
+description:
+author: ds
 ---
 
 ![Laravel, TYPO3 Neos, Magento](/content/images/2015/03/laravel-neos-magento.png)

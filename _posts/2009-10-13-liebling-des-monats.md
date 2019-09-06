@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Liebling des Monats
-image: "/content/images/2015/02/sik-holz.jpg"
-date: '2009-10-13 18:45:08'
-tags:
-- portfolio
-- redaxo
-- note
+description:
+author: ds
 ---
 
 ![sik-holz](/content/images/2015/02/sik-holz.jpg)
