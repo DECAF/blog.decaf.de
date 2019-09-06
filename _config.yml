@@ -6,6 +6,8 @@ repository: DECAF/blog.decaf.de
 timezone: Europe/Berlin
 permalink: /:year/:month/:day/:title/
 #baseurl:
+paginate: 10
+paginate_path: "/page/:num/"
 
 # Optional plugins
 # https://help.github.com/articles/configuring-jekyll-plugins/#optional-plugins
