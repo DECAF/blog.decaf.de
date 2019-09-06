@@ -1,0 +1,75 @@
+{% if include.posts %}
+
+  {% for post in include.posts %}
+
+    {% assign author = site.data.authors | where: "id", post.author | first %}
+    {% assign slug = post.url | split: "/" | last %}
+    {% assign slugNumber = slug | plus: 0 %}
+
+    {% if include.featured %}
+
+      <article class="post">
+        <header class="post-header">
+          <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        </header>
+        <section class="post-excerpt">
+          {% if post.image %}
+            <a class="excerpt__image-link" href="{{ post.url }}"><img class="excerpt__image {{ post.imageClass }}" src="{{ post.image }}" alt=""></a>
+          {% endif %}
+          {% if post.description %}
+            <p class="excerpt__text">{{ post.description }}</p>
+          {% endif %}
+          <a class="read-more" href="{{ post.url }}">Read full post &raquo;</a>
+        </section>
+        <footer class="post-meta">
+          {% if author.image %}
+          <a href="/author/{{ author.name | slugify }}/"><img class="author-thumb" src="{{ author.image }}" alt="{{ author.name }}" /></a>
+          {% endif %}
+          <a href="/author/{{ author.name | slugify }}/">{{ author.name }}</a>
+          <time class="post-date" datetime="{{ post.date | date: '%Y-%m-%d' }}"><a href="{{ post.url }}">{{ post.date | date: '%e. %B %Y' }}</a></time>
+        </footer>
+      </article>
+
+    {% elsif slugNumber > 999999 %}
+
+      <article class="post tag-twitter">
+        <section class="post-content">
+          {{ post.content }}
+        </section>
+        <footer class="post-meta">
+          {% if author.image %}
+          <a href="/author/{{ author.name | slugify }}/"><img class="author-thumb" src="{{ author.image }}" alt="{{ author.name }}" /></a>
+          {% endif %}
+          <a href="/author/{{ author.name | slugify }}/">{{ author.name }}</a>
+          <time class="post-date" datetime="{{ post.date | date: '%Y-%m-%d' }}"><a href="{{ post.url }}">{{ post.date | date: '%e. %B %Y' }}</a></time>
+          <a class="post-link" href="https://twitter.com/_DECAF/status/{{ slugNumber }}">Link to Tweet</a>
+        </footer>
+      </article>
+
+    {% else %}
+
+      <article class="post">
+        <header class="post-header">
+          <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        </header>
+        <section class="post-content">
+          {{ post.content }}
+        </section>
+        <footer class="post-meta">
+          {% if author.image %}
+            <a href="/author/{{ author.name | slugify }}/"><img class="author-thumb" src="{{ author.image }}" alt="{{ author.name }}" /></a>
+          {% endif %}
+          <a href="/author/{{ author.name | slugify }}/">{{ author.name }}</a>
+          <time class="post-date" datetime="{{ post.date | date: '%Y-%m-%d' }}"><a href="{{ post.url }}">{{ post.date | date: '%e. %B %Y' }}</a></time>
+        </footer>
+      </article>
+
+    {% endif %}
+
+  {% else %}
+
+    <p>No posts.</p>
+
+  {% endfor %}
+
+{% endif %}

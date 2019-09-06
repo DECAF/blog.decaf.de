@@ -1,0 +1,12 @@
+{% if paginator.previous_page %}
+  <div class="extra-pagination">
+    <nav class="pagination" role="navigation">
+
+      {% if paginator.previous_page %}
+        <a class="newer-posts" href="{{ paginator.previous_page_path }}"><span aria-hidden="true">←</span> Newer Posts</a>
+      {% endif %}
+
+    </nav>
+    <div class="clearfix"></div>
+  </div>
+{% endif %}
