@@ -1143,3 +1143,13 @@ body .nav a.subscribe-button:hover {
   }
 }
 
+
+body blockquote.twitter-tweet {
+  font-size: 2rem;
+  padding-bottom: 1em;
+
+  > p {
+    font-size: 1.2em;
+    margin: 0.5em 0 !important;
+  }
+}
