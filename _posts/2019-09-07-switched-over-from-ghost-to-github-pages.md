@@ -3,7 +3,7 @@ layout: post
 title: "Switched over from Ghost to GitHub Pages"
 author: ds
 
-description: "This blog ran on WordPress decades ago. Then suddenly Ghost was standing in the room and looked terribly awesome! What happened so we’re on GitHub Pages now?"
+description: "This blog ran on WordPress decades ago. Then suddenly Ghost was standing in the room and looked terribly awesome! What happened that we’re on GitHub Pages now?"
 image: /content/images/2015/09/ghost-07.png
 more: true
 ---
