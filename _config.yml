@@ -11,7 +11,6 @@ paginate_path: "/page/:num/"
 # Optional plugins
 # https://help.github.com/articles/configuring-jekyll-plugins/#optional-plugins
 plugins:
-- jekyll-feed
 - jekyll-seo-tag
 - jekyll-sitemap
 
@@ -33,11 +32,6 @@ collections:
 # https://jekyllrb.com/docs/assets/
 sass:
   style: compressed
-
-# Feed
-# https://github.com/jekyll/jekyll-feed
-feed:
-  path: /rss/index.xml
 
 # Exclude directories and/or files from the conversion.
 # https://jekyllrb.com/docs/configuration/

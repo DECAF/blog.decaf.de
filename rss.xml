@@ -1,0 +1,52 @@
+---
+layout: null
+permalink: /rss/
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  {% assign title = site.title | default: site.name %}
+  <title type="html">{{ title | smartify | xml_escape }}</title>
+
+  {% if site.description %}
+    <subtitle>{{ site.description | xml_escape }}</subtitle>
+  {% endif %}
+
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ page.url | absolute_url | xml_escape }}</id>
+
+  <link href="{{ page.url | absolute_url }}" rel="self" type="application/atom+xml" />
+  <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html" />
+
+  {% for post in site.posts limit: 10 %}
+
+    {% assign author = site.data.authors | where: "id", post.author | first %}
+    {% capture author_uri %}/author/{{ author.name | slugify }}/{% endcapture %}
+    {% assign image_directory = "/content/images/" %}
+    {% assign image_directory_absolute = "/content/images/" | absolute_url %}
+    {% assign content = post.content | replace: image_directory, image_directory_absolute %}
+
+    <entry>
+      <title type="html">{{ post.title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
+      <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
+      <published>{{ post.date | date_to_xmlschema }}</published>
+      <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
+      <id>{{ post.id | absolute_url | xml_escape }}</id>
+
+      <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}">{{ content | strip | xml_escape }}</content>
+
+      {% if author %}
+        <author>
+          <name>{{ author.name | xml_escape }}</name>
+          <uri>{{ author_uri | xml_escape | absolute_url }}</uri>
+        </author>
+      {% endif %}
+
+      {% if post.image %}
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post.image | absolute_url | xml_escape }}" />
+      {% endif %}
+    </entry>
+
+  {% endfor %}
+
+</feed>
