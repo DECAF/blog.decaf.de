@@ -44,6 +44,7 @@ permalink: /rss/
 
       {% if post.image %}
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post.image | absolute_url | xml_escape }}" />
+        <media:content xmlns:media="http://search.yahoo.com/mrss/" url="{{ post.image | absolute_url | xml_escape }}" medium="image" />
       {% endif %}
     </entry>
 
