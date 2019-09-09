@@ -24,9 +24,15 @@
     {% include content.html %}
     {% include footer.html %}
 
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        window.lazySizesConfig.srcAttr = 'data-lazy-src';
+    </script>
+
     <script src="//code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="{{ '/assets/js/prism.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/jquery.fitvids.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/lazysizes.min.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
 
   </body>
