@@ -8,5 +8,5 @@
     <li class="nav-archives{% if page.url == '/archives' %} nav-current{% endif %}" role="presentation"><a href="{% link archives.html %}">Archives</a></li>
     <li class="nav-featured{% if page.url == '/featured' %} nav-current{% endif %}" role="presentation"><a href="{% link featured.html %}">Featured</a></li>
   </ul>
-  <a class="subscribe-button icon-feed" href="{{ site.feed.path }}">Subscribe</a>
+  <a class="subscribe-button icon-feed" href="{{ site.url | append: '/rss/' }}">Subscribe</a>
 </div>
