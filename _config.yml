@@ -37,7 +37,7 @@ sass:
 # Feed
 # https://github.com/jekyll/jekyll-feed
 feed:
-  path: /rss/
+  path: /rss/index.xml
 
 # Exclude directories and/or files from the conversion.
 # https://jekyllrb.com/docs/configuration/
