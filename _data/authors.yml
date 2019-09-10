@@ -1,7 +1,7 @@
 - id: ds
   name: Dirk
   slug: dirk
-  image: /content/images/2015/05/dirk.png
+  image: /content/dirk.png
   location: Berlin
   website: https://decaf.de
   twitter: schuer
@@ -10,7 +10,7 @@
 - id: aw
   name: Andreas
   slug: andreas
-  image: /content/images/2015/05/andreas.png
+  image: /content/andreas.png
   location: Berlin
   website: https://decaf.de
   twitter:
@@ -19,7 +19,7 @@
 - id: su
   name: Stefan
   slug: stefan
-  image: /content/images/2015/05/stefan.png
+  image: /content/stefan.png
   location: Langenberg/NRW
   website: https://decaf.de
   twitter:
