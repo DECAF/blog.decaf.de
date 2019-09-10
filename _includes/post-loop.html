@@ -14,7 +14,7 @@
         </header>
         <section class="post-excerpt">
           {% if post.image %}
-            <a class="excerpt__image-link" href="{{ post.url }}"><img class="excerpt__image {{ post.imageClass }}" src="{{ post.image }}" alt=""></a>
+            <a class="excerpt__image-link" href="{{ post.url }}"><img class="excerpt__image {{ post.imageClass }}" src="{{ post.image }}" alt="{{ post.title }}"></a>
           {% endif %}
           {% if post.description %}
             <p class="excerpt__text">{{ post.description }}</p>
@@ -39,7 +39,7 @@
         <section class="post-excerpt">
           {% if post.image or post.description %}
             {% if post.image %}
-            <a class="excerpt__image-link" href="{{ post.url }}"><img class="excerpt__image {{ post.imageClass }}" src="{{ post.image }}" alt=""></a>
+            <a class="excerpt__image-link" href="{{ post.url }}"><img class="excerpt__image {{ post.imageClass }}" src="{{ post.image }}" alt="{{ post.title }}"></a>
             {% endif %}
             {% if post.description %}
             <p class="excerpt__text">{{ post.description }}</p>
