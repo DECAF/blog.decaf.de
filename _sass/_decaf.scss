@@ -404,6 +404,7 @@ body .post.tag-twitter .post-content p {
     max-width: 100%;
     margin: 1.2em auto;
     padding: 0;
+    text-decoration: none;
     //outline: 1px solid rgba(255, 255, 255, 0.5) !important;
     /* Centers an image by (1) pushing its left edge to the
    center of its container and (2) shifting the entire image
@@ -1028,26 +1029,29 @@ body blockquote.twitter-tweet {
 
 
 // lazy loaded image placeholders
-body .post-content img[data-lazy-src]:not(.lazyloaded) {
-  background: rgba(255, 255, 255, 0.3);
-  color: transparent;
-  outline: 0;
-  min-height: 200px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-
-  &::after {
-    content: attr(alt);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+body .post-content,
+body .post-excerpt {
+  img[data-lazy-src]:not(.lazyloaded) {
+    background: rgba(255, 255, 255, 0.3);
+    color: transparent;
+    outline: 0;
+    min-height: 200px;
+    position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
-    color: rgba(0, 0, 0, 0.2);
-    font-size: 2rem;
+
+    &::after {
+      content: attr(alt);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgba(0, 0, 0, 0.2);
+      font-size: 2rem;
+    }
   }
 }
