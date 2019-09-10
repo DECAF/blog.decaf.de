@@ -1025,3 +1025,29 @@ body blockquote.twitter-tweet {
     margin: 0.5em 0 !important;
   }
 }
+
+
+// lazy loaded image placeholders
+body .post-content img[data-lazy-src]:not(.lazyloaded) {
+  background: rgba(255, 255, 255, 0.3);
+  color: transparent;
+  outline: 0;
+  min-height: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  &::after {
+    content: attr(alt);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 2rem;
+  }
+}
