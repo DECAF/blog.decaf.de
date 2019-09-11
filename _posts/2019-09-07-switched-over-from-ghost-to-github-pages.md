@@ -14,7 +14,7 @@ This blog ran on __WordPress__ decades ago. Then suddenly __Ghost__ was standing
 
 We went hand in hand all the way up to Ghost version 0.11.14. And then lost each other. [Ghost turned 1](https://ghost.org/blog/1-0/) and we didn’t have time to celebrate. Suddenly there were breaking changes, like no more SQLite3 and lots of CLI. And even before we learned to handle it, [Ghost turned 2](https://ghost.org/blog/2-0/), dropped Markdown and became seriously professional. Well shit, we still were on 0.11! The heck you running so fast, 👻?
 
-When we finally had time again—like… now?—we were thinking about upgrading the old friend. However, MySQL? Nah. Couldn’t it be a static page? Use [Gatsby](https://www.gatsbyjs.org) instead, when we were working with React all day anyway? Or switch to [Eleventy](https://www.11ty.io), since it’s PHP and considered simple and focused?
+When we finally had time again—like… now?—we were thinking about upgrading the old friend. However, MySQL? Nah. Couldn’t it be a static page? Use [Gatsby](https://www.gatsbyjs.org) instead, when we were working with React all day anyway? Or switch to [Eleventy](https://www.11ty.io), since it’s JavaScript and considered simple and focused?
 
 <img class="seamless" style="max-width: 200px;" src="/content/images/2019/09/jekyll.png" alt="Jekyll">
 
