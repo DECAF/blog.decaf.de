@@ -41,5 +41,5 @@ exclude:
 - LICENSE
 - README.md
 - SETUP.md
-- .idea
-- .github
+- scripts
+- CNAME
