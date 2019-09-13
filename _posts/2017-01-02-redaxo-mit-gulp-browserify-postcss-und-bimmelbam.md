@@ -30,7 +30,7 @@ Bei den [Friends Of REDAXO](https://github.com/FriendsOfREDAXO/Info) haben wir g
 
 ## Links zum Projekt
 
-https://github.com/FriendsOfREDAXO/redaxo-mit-bimmelbam
+[https://github.com/FriendsOfREDAXO/redaxo-mit-bimmelbam](https://github.com/FriendsOfREDAXO/redaxo-mit-bimmelbam)
 
 __Anlaufstellen für Fragen, Anmerkungen oder bei Problemen:__
 

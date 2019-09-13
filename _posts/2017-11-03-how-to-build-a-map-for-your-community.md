@@ -69,4 +69,4 @@ We provide 3 options: send a pull request, open an issue or contact us. The firs
 ---
 
 That’s it, have fun with your map! 🚀
-In case you struggle or have questions, we’d recommend to set up a [GitHub issue](https://github.com/FriendsOfREDAXO/community/issues). Or even better join our Slack chat! You’ll receive an invitation when providing your email at https://redaxo.org/slack/.
+In case you struggle or have questions, we’d recommend to set up a [GitHub issue](https://github.com/FriendsOfREDAXO/community/issues). Or even better join our Slack chat! You’ll receive an invitation when providing your email at [https://redaxo.org/slack/](https://redaxo.org/slack/).

@@ -32,6 +32,6 @@ In den REDAXO-Adminbereich kommst du über `http://localhost:20080/redaxo` mit d
 
 ### Infos und Hilfe
 
-Ausführliche Informationen erhälst du auf der Projektseite: https://github.com/FriendsOfREDAXO/redaxo-mit-docker
+Ausführliche Informationen erhälst du auf der Projektseite: [https://github.com/FriendsOfREDAXO/redaxo-mit-docker](https://github.com/FriendsOfREDAXO/redaxo-mit-docker)
 
-Falls du Hilfe brauchst, Fragen hast oder allgemein an REDAXO interessiert bist, besuche am besten den Slack-Chat. Eine Einladung zum Slack bekommst du hier: https://redaxo.org/slack/
+Falls du Hilfe brauchst, Fragen hast oder allgemein an REDAXO interessiert bist, besuche am besten den Slack-Chat. Eine Einladung zum Slack bekommst du hier: [https://redaxo.org/slack/](https://redaxo.org/slack/)
