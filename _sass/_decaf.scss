@@ -120,6 +120,14 @@ body.nav-opened .menu-button .word {
     transition: none;
 }
 
+@media only screen and (min-width: 1100px) {
+
+  body .menu-button {
+    position: fixed;
+    right: 70px;
+  }
+}
+
 @media only screen and (max-width: 500px) {
 
     body .menu-button {
