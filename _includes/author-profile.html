@@ -1,4 +1,4 @@
-{% if include.author %}
+{%- if include.author -%}
 
   {%- assign posts = site.posts | where: "author", include.author -%}
   {%- assign author = site.data.authors | where: "id", include.author | first -%}
@@ -7,20 +7,20 @@
 
     {%- if author.image -%}
       <figure class="author-image">
-        {% if include.link %}
+        {%- if include.link -%}
           <a href="/author/{{ author.name | slugify }}/" class="img" style="background-image: url('{{ author.image }}')"><span class="hidden">{{ author.name }}'s Picture</span></a>
-        {% else %}
+        {%- else -%}
           <div class="img" style="background-image: url('{{ author.image }}')"><span class="hidden">{{ author.name }}'s Picture</span></div>
-        {% endif %}
+        {%- endif -%}
       </figure>
     {%- endif -%}
 
     <h1 class="author-title">
-      {% if include.link %}
+      {%- if include.link -%}
         <a href="/author/{{ author.name | slugify }}/">{{ author.name }}</a>
-      {% else %}
+      {%- else -%}
         {{ author.name }}
-      {% endif %}
+      {%- endif -%}
     </h1>
 
     {%- if author.bio -%}
@@ -36,9 +36,9 @@
         <span class="author-link icon-link"><a href="{{ author.website }}">{{ author.website }}</a></span>
       {%- endif -%}
 
-      <span class="author-stats"><i class="icon-stats"></i> {{ posts.size }} {% if posts.size == 1 %}post{% else %}posts{% endif %}</span>
+      <span class="author-stats"><i class="icon-stats"></i> {{ posts.size }} {%- if posts.size == 1 -%}post{%- else -%}posts{%- endif -%}</span>
     </div>
 
   </section>
 
-{% endif %}
+{%- endif -%}

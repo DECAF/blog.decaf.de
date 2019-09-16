@@ -1,4 +1,4 @@
-{% assign author = site.data.authors | where: "id", page.author | first %}
+{%- assign author = site.data.authors | where: "id", page.author | first -%}
 
 <article class="post">
 
@@ -15,29 +15,29 @@
 
   <footer class="post-footer">
 
-    {% if author.image %}
+    {%- if author.image -%}
       <figure class="author-image">
         <a class="img" href="/author/{{ author.name | slugify }}/" style="background-image: url({{ author.image }})"><span class="hidden">{{ author.name }}’s Picture</span></a>
       </figure>
-    {% endif %}
+    {%- endif -%}
 
     <section class="author">
       <h4><a href="/author/{{ author.name | slugify }}/">{{ author.name }}</a></h4>
 
-      {% if author.bio %}
+      {%- if author.bio -%}
         <p>{{ author.bio }}</p>
-      {% else %}
+      {%- else -%}
         <p>Read <a href="/author/{{ author.name | slugify }}/">more posts</a> by this author.</p>
-      {% endif %}
+      {%- endif -%}
 
       <div class="author-meta">
-        {% if author.location %}
+        {%- if author.location -%}
           <span class="author-location icon-location">{{ author.location }}</span>
-        {% endif %}
+        {%- endif -%}
 
-        {% if author.website %}
+        {%- if author.website -%}
           <span class="author-link icon-link"><a href="{{ author.website }}">{{ author.website }}</a></span>
-        {% endif %}
+        {%- endif -%}
       </div>
     </section>
 

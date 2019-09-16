@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% include header.html %}
+{%- include header.html -%}
 
 <main class="content" role="main">
 
@@ -10,9 +10,9 @@ layout: default
 
     <section class="post-content">
 
-      {% include author-profile.html author=page.author %}
+      {%- include author-profile.html author=page.author -%}
 
-      {% include post-list.html author=page.author %}
+      {%- include post-list.html author=page.author -%}
 
     </section>
 

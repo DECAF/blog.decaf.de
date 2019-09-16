@@ -5,7 +5,7 @@
 
     {%- for group in postGroups -%}
       <li class="author-list__item">
-        {% include author-profile.html author=group.name link="true" %}
+        {%- include author-profile.html author=group.name link="true" -%}
       </li>
     {%- endfor -%}
   </ul>

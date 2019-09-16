@@ -1,28 +1,28 @@
-{% if include.author %}
-  {% assign posts = site.posts | where: "author", include.author %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
+{%- if include.author -%}
+  {%- assign posts = site.posts | where: "author", include.author -%}
+{%- else -%}
+  {%- assign posts = site.posts -%}
+{%- endif -%}
 
 <div class="post-list">
 
-  {% for post in posts %}
+  {%- for post in posts -%}
 
-    {% assign author = site.data.authors | where: "id", post.author | first %}
-    {% capture postYear %}{{ post.date | date: '%Y' }}{% endcapture %}
+    {%- assign author = site.data.authors | where: "id", post.author | first -%}
+    {%- capture postYear -%}{{ post.date | date: '%Y' }}{%- endcapture -%}
 
-    {% if currentYear != postYear %}
-      {% assign currentYear = postYear %}
+    {%- if currentYear != postYear -%}
+      {%- assign currentYear = postYear -%}
 
-      {% unless forloop.first %}
+      {%- unless forloop.first -%}
           </ul>
         </div>
-      {% endunless %}
+      {%- endunless -%}
 
       <div class="post-list__section">
         <h3 class="post-list__title">{{ currentYear }}</h3>
         <ul class="post-list__list">
-    {% endif %}
+    {%- endif -%}
 
     <li class="post-list__list-item">
       <article class="post-list__item">
@@ -30,24 +30,24 @@
           <h2 class="post-list__item-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         </header>
         <footer class="post-list__item-meta">
-          {% if author.image %}
+          {%- if author.image -%}
             <a href="/author/{{ author.name | slugify }}/"><img class="post-list__item-thumb" src="{{ author.image }}" alt="{{ author.name }}" /></a>
-          {% endif %}
+          {%- endif -%}
           <a class="post-list__item-link" href="/author/{{ author.name | slugify }}/">{{ author.name }}</a>
           <time class="post-list__item-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%e. %B %Y' }}</time>
         </footer>
       </article>
     </li>
 
-    {% if forloop.last %}
+    {%- if forloop.last -%}
         </ul>
       </div>
 
-      <p>{{ posts.size }} {% if posts.size == 1 %}post{% else %}posts{% endif %}</p>
-    {% endif %}
+      <p>{{ posts.size }} {%- if posts.size == 1 -%}post{%- else -%}posts{%- endif -%}</p>
+    {%- endif -%}
 
-  {% else %}
+  {%- else -%}
     <p>No posts.</p>
-  {% endfor %}
+  {%- endfor -%}
 
 </div>

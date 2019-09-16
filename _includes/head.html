@@ -1,17 +1,17 @@
-{% if page.title %}
-  {% capture pageTitle %}{{ page.title | escape }} / {{ site.title | escape }}{% endcapture %}
-{% else %}
-  {% capture pageTitle %}{{ site.title | escape }}{% endcapture %}
-{% endif %}
+{%- if page.title -%}
+  {%- capture pageTitle -%}{{ page.title | escape }} / {{ site.title | escape }}{%- endcapture -%}
+{%- else -%}
+  {%- capture pageTitle -%}{{ site.title | escape }}{%- endcapture -%}
+{%- endif -%}
 
-{% if paginator.previous_page %}
-  {% assign pageTitle = pageTitle | append: " - Page " | append: paginator.page %}
-{% endif %}
+{%- if paginator.previous_page -%}
+  {%- assign pageTitle = pageTitle | append: " - Page " | append: paginator.page -%}
+{%- endif -%}
 
-{% assign pageDescription = page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape %}
-{% assign pageKeyWords = page.keywords | default: site.keywords | strip_html | normalize_whitespace | escape %}
-{% assign pageImage = page.image | default: "/icons/decaf.en.jpg" | absolute_url %}
-{% assign pageUrl = page.url | absolute_url %}
+{%- assign pageDescription = page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape -%}
+{%- assign pageKeyWords = page.keywords | default: site.keywords | strip_html | normalize_whitespace | escape -%}
+{%- assign pageImage = page.image | default: "/icons/decaf.en.jpg" | absolute_url -%}
+{%- assign pageUrl = page.url | absolute_url -%}
 
 <head>
     <meta charset="utf-8">
@@ -26,7 +26,7 @@
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-    <link type="application/atom+xml" rel="alternate" href="{% link rss.xml %}" title="{{ site.title | escape }}">
+    <link type="application/atom+xml" rel="alternate" href="{%- link rss.xml -%}" title="{{ site.title | escape }}">
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{ 'icons/apple-touch-icon.png' | relative_url }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ 'icons/favicon-32x32.png' | relative_url }}">
