@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}" prefix="og: http://ogp.me/ns#">
 
-  {% include head.html %}
+  {%- include head.html -%}
 
   {%- assign slug = page.url | split: "/" | last -%}
+  {%- assign slugNumber = slug | plus: 0 -%}
 
-  {%- if page.layout %}
+  {%- if page.layout -%}
     {%- assign pageLayoutClass = page.layout | append: "-template" -%}
-  {% endif %}
+  {%- endif -%}
 
-  {%- if page.layout == "page" %}
+  {%- if slugNumber > 999999 -%}
+    {%- assign pageLayoutClass = pageLayoutClass | append: " twitter-template" -%}
+  {%- endif -%}
+
+  {%- if page.layout == "page" -%}
     {%- assign pageClass = "page page-" | append: slug | append: " page-template-" | append: slug -%}
-  {% endif %}
+  {%- endif -%}
 
-  {%- if paginator.page > 1 %}
+  {%- if paginator.page > 1 -%}
     {%- assign archiveClass = "paged archive-template" -%}
     {%- assign pageLayoutClass = "" -%}
-  {% endif %}
+  {%- endif -%}
 
   <body class="{{ pageClass }} {{ pageLayoutClass }} {{ archiveClass }} nav-closed">
 
-    {% include navigation.html %}
-    {% include content.html %}
-    {% include footer.html %}
+    {%- include navigation.html -%}
+    {%- include content.html -%}
+    {%- include footer.html -%}
 
     <script>
         window.lazySizesConfig = window.lazySizesConfig || {};

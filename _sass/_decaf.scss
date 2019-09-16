@@ -405,6 +405,11 @@ body .post.tag-twitter .post-content p {
     margin-bottom: 1em;
 }
 
+body.twitter-template .post-content p {
+    font-size: 1.4em;
+    line-height: 1.5;
+}
+
 /* Keep images centered, and allow images wider than the main
    text column to break out. */
 .excerpt__image-link {
@@ -624,6 +629,10 @@ body .site-footer a {
 
     body .post.tag-twitter {
         font-size: 1.2em;
+    }
+
+    body.twitter-template .post-content p {
+      font-size: 1.2em;
     }
 
     body .excerpt__text {
