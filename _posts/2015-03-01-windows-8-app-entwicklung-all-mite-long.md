@@ -69,7 +69,7 @@ __Bis hierher hätten wir es noch durchgezogen, dann aber kamen die echten Shows
 * Windows 8 überzeugte offenbar auch unsere potentiellen Kunden nicht. Wir wussten etwa von Verlagen, die Budgets ausgeschlagen haben, und keine App entwickeln wollten.
 * Mit Windows 8.1 schien das irgendwie nicht besser zu werden.
 
-<iframe data-lazy-src="//giphy.com/embed/DO9WQFLaAEnM4?html5=true" width="480" height="356" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe data-lazy-src="https://giphy.com/embed/DO9WQFLaAEnM4" width="480" height="356" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 <cite><small>– [giphy.com](http://giphy.com/gifs/reaction-reactiongifs-steve-DO9WQFLaAEnM4)</small></cite>
 
 Am Ende stand die Vermutung, auf ein ~~zahmes~~ lahmes Pferd gesetzt zu haben, und wir haben die App nicht weiter verfolgt. Als einzelnes Projekt war es sehr spannend, wir haben viel gelernt und waren zwischenzeitlich beinahe euphorisch darüber, welche gute Arbeit Microsoft aus Entwicklersicht geleistet hatte. Aber für langfristig sollte das besser nicht unser Ding werden.
