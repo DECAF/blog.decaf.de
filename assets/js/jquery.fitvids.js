@@ -1,7 +1,7 @@
 /*global jQuery */
 /*jshint browser:true */
 /*!
- * FitVids 1.1
+ * FitVids 1.1 (modified for blog.decaf.de!)
  *
  * Copyright 2013, Chris Coyier - http://css-tricks.com + Dave Rupert - http://daverupert.com
  * Credit to Thierry Koblentz - http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/
@@ -37,6 +37,11 @@
         "iframe[src*='youtube.com']",
         "iframe[src*='youtube-nocookie.com']",
         "iframe[src*='kickstarter.com'][src*='video.html']",
+        // MOD: add data-lazy-src selectors
+        "iframe[data-lazy-src*='player.vimeo.com']",
+        "iframe[data-lazy-src*='youtube.com']",
+        "iframe[data-lazy-src*='youtube-nocookie.com']",
+        "iframe[data-lazy-src*='kickstarter.com'][src*='video.html']",
         "object",
         "embed"
       ];
