@@ -82,3 +82,11 @@ If your image is transparent, you probably want to __avoid the default white out
 We make use of [Prism JS](https://prismjs.com) for code highlighting. You can create fenced code blocks by placing triple backticks before and after the code block, as you know it from [GitHub Flavored Markdown](https://help.github.com/en/articles/creating-and-highlighting-code-blocks). An optional language identifier enables syntax highlighting.
 
 However, this is special to Jekyll: __if your code snippet contains curly braces__, you will likely need to place `{% raw %}` and `{% endraw %}` tags around your code! (See [Liquid docs](https://shopify.github.io/liquid/tags/raw/) for raw.)
+
+### Lazy loading
+
+Images from `content/images/` will be lazy loaded per default. If you want iframes to lazy load as well, just change their `src` to `data-lazy-src`, like
+
+```html
+<iframe data-lazy-src="https://giphy.com/embed/22nMX60cwdx5K" ... ></iframe>
+```

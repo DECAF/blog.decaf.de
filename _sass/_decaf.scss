@@ -1048,6 +1048,7 @@ body blockquote.twitter-tweet {
 // lazy loaded image placeholders
 body .post-content,
 body .post-excerpt {
+  iframe[data-lazy-src]:not(.lazyloaded),
   img[data-lazy-src]:not(.lazyloaded) {
     background: rgba(255, 255, 255, 0.3);
     color: transparent;
