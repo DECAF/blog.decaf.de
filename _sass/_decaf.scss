@@ -682,6 +682,16 @@ body pre[class*='language-'] > code[data-language]::before {
     https://github.com/TryGhost/Casper/pull/200
 */
 
+@media only screen and (min-width: 501px) {
+  .post-footer .share {
+    text-align: right;
+  }
+  .post-footer .share a {
+    margin-left: 1.6rem;
+    margin-right: 0;
+  }
+}
+
 body .post-footer .share .icon-twitter:hover {
     color: #55acee;
 }
