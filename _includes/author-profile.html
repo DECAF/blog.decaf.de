@@ -36,7 +36,7 @@
         <span class="author-link icon-link"><a href="{{ author.website }}">{{ author.website }}</a></span>
       {%- endif -%}
 
-      <span class="author-stats"><i class="icon-stats"></i> {{ posts.size }} {%- if posts.size == 1 -%}post{%- else -%}posts{%- endif -%}</span>
+      <span class="author-stats"><i class="icon-stats"></i> {{ posts.size }} {% if posts.size == 1 %}post{% else %}posts{% endif %}</span>
     </div>
 
   </section>

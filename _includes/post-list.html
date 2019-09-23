@@ -43,7 +43,7 @@
         </ul>
       </div>
 
-      <p>{{ posts.size }} {%- if posts.size == 1 -%}post{%- else -%}posts{%- endif -%}</p>
+      <p>{{ posts.size }} {% if posts.size == 1 %}post{% else %}posts{% endif %}</p>
     {%- endif -%}
 
   {%- else -%}
