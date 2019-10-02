@@ -40,7 +40,7 @@ Front matter details:
 
 | Options       | Description                        | Required |
 |---------------|------------------------------------|----------|
-| `layout`      | The page layout. It’s always `post`. | Yes |
+| `layout`      | The page layout. It’s usually `post`, but sometimes you want to use a variant:<br>`post-short`: For short posts. Does not show post title, uses big typo. | Yes |
 | `title`       | The post title. | Yes |
 | `author`      | The post author. Has to match with an `id` from `_data/authors.yml`. | Yes |
 | `description` | A post description. Should be no longer than 160 chars. Will be used in several contexts, like post excerpts or page meta data for social media. | |

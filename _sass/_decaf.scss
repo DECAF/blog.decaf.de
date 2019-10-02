@@ -396,15 +396,18 @@ body .post-date {
     white-space: nowrap;
 }
 
+body .post.tag-short,
 body .post.tag-twitter {
     font-size: 1.4em;
     line-height: 1.5;
 }
 
+body .post.tag-short .post-content p,
 body .post.tag-twitter .post-content p {
     margin-bottom: 1em;
 }
 
+body.post-short-template .post-content p,
 body.twitter-template .post-content p {
     font-size: 1.4em;
     line-height: 1.5;
@@ -628,10 +631,12 @@ body .site-footer a {
         margin-top: 8px !important;
     }
 
+    body .post.tag-short,
     body .post.tag-twitter {
         font-size: 1.2em;
     }
 
+    body.post-short-template .post-content p,
     body.twitter-template .post-content p {
       font-size: 1.2em;
     }
