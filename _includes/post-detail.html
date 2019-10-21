@@ -1,11 +1,17 @@
 {%- assign author = site.data.authors | where: "id", page.author | first -%}
 
+{%- assign slug = page.url | split: "/" | last -%}
+{%- assign slugNumber = slug | plus: 0 -%}
+
 <article class="post">
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <section class="post-meta">
       <time class="post-date" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%e. %B %Y' }}</time>
+      {% if slugNumber > 999999 %}
+        <a class="post-link" href="https://twitter.com/_DECAF/status/{{ slugNumber }}">Link to Tweet</a>
+      {% endif %}
     </section>
   </header>
 
