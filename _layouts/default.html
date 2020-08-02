@@ -14,6 +14,10 @@
     {%- assign pageLayoutClass = pageLayoutClass | append: " twitter-template" -%}
   {%- endif -%}
 
+  {%- if page.layout == "post-short" -%}
+    {%- assign pageLayoutClass = pageLayoutClass | append: " post-template" -%}
+  {%- endif -%}
+
   {%- if page.layout == "page" -%}
     {%- assign pageClass = "page page-" | append: slug | append: " page-template-" | append: slug -%}
   {%- endif -%}
