@@ -75,5 +75,5 @@ That said, [Sass 3.3 supports BEM-style nesting](http://mikefowler.me/2013/10/17
 
 ##### Comments?
 
-We’d love to get your feedback on twitter: [@_DECAF](https://twitter.com/_DECAF).
+We’d love to get your feedback on twitter: <a href="https://twitter.com/_DECAF">@_DECAF</a>.  
 And did you know: hashtag for BEM is [#b\_](https://twitter.com/search?q=%23b_).
