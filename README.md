@@ -11,9 +11,9 @@ Start your blog with:
 
     $ bundle exec jekyll serve
 
-To preview your site with [drafts](https://jekyllrb.com/docs/posts/#drafts), run Jekyll with the `--drafts` switch:
+To preview your site with [drafts](https://jekyllrb.com/docs/posts/#drafts) and future posts and unpublished posts, run Jekyll with all those switches (see [docs](https://jekyllrb.com/docs/configuration/options/#build-command-options)):
 
-    $ bundle exec jekyll serve --drafts
+    $ bundle exec jekyll serve --drafts --future --unpublished
 
 
 ## How to blog
