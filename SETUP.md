@@ -8,7 +8,7 @@ To set up the website on your local machine, the following steps are required:
 
         $ ruby --version
 
-    Install Ruby 3.x according to the Jekyll website at https://jekyllrb.com/docs/installation/.
+    Install Ruby 3.x according to the Jekyll website at https://jekyllrb.com/docs/installation/.  
     ⚠️ For Mac, better not use [rvm](https://rvm.io/), but go fo [chruby](https://github.com/postmodern/chruby)! This is also what Jekyll recommends at https://jekyllrb.com/docs/installation/macos/.
 
 2. Install __Bundler__ if not yet available
